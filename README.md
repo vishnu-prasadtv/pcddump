@@ -39,7 +39,7 @@ Execute the script directly with a single command:
 bash <(curl -Ls https://raw.githubusercontent.com/vishnu-prasadtv/pf9-gatherer/refs/heads/main/pf9-gatherer.sh)
 ```
 
-### 📥 Option 2: Manual Installation
+### 📥 Option 2: Manual Execution
 
 For users who prefer to download and inspect before execution:
 
