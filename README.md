@@ -17,12 +17,17 @@ This script gathers detailed cluster dump information from Platform9 managed Kub
 
 ## 📋 Prerequisites
 
-Before running this script, ensure you have:
+### 📝 Pre-execution Setup
 
-- 🔐 Access to a Platform9 managed Kubernetes cluster
-- ⚙️ `kubectl` installed and configured
-- 🔑 **KUBECONFIG exported** for the PCD Management Cluster
-- 🛡️ Appropriate cluster permissions to read resources
+Ensure your KUBECONFIG is properly configured:
+
+```bash
+# 🔑 Export your KUBECONFIG
+export KUBECONFIG=/path/to/your/pcd-management-cluster.kubeconfig
+
+# ✅ Verify connectivity
+kubectl get nodes
+```
 
 ## 🛠️ Installation
 
@@ -57,26 +62,6 @@ chmod +x pf9-gatherer.sh
 ./pf9-gatherer.sh
 ```
 
-### 📝 Pre-execution Setup
-
-Ensure your KUBECONFIG is properly configured:
-
-```bash
-# 🔑 Export your KUBECONFIG
-export KUBECONFIG=/path/to/your/pcd-management-cluster.kubeconfig
-
-# ✅ Verify connectivity
-kubectl get nodes
-```
-
-## ⚠️ Important Notes
-
-> 🚨 **CRITICAL**: Ensure the PCD Management Cluster KUBECONFIG is properly exported before running the script.
-
-```bash
-export KUBECONFIG=/path/to/your/kubeconfig
-```
-
 ## 🔧 Requirements
 
 - 🐧 Linux/Unix environment
@@ -93,32 +78,3 @@ The script generates comprehensive cluster dump containing:
 - 📈 Cluster state and health information  
 - 🔍 Diagnostic data and logs
 - ⚙️ Platform9 specific configurations and settings
-
-## 🆘 Support
-
-For issues or questions:
-
-- 🐛 [Create an issue](../../issues) in this repository
-- 📧 Contact Platform9 support for cluster-specific problems
-- 💬 Check existing issues for common solutions
-
-## 🤝 Contributing
-
-Contributions are welcome! Please feel free to:
-
-- 🍴 Fork the repository
-- 🔧 Create a feature branch
-- 📝 Submit a Pull Request
-- 📋 Report bugs and issues
-
-## 📄 License
-
-This project is licensed under the [MIT License](LICENSE) - see the LICENSE file for details.
-
-## 🏷️ Tags
-
-`kubernetes` `platform9` `cluster-diagnostics` `devops` `shell-script` `troubleshooting`
-
----
-
-⭐ **Found this useful?** Give it a star to show your support!
