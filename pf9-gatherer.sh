@@ -1,7 +1,9 @@
 #!/bin/bash
 
 # Configuration
-CLUSTER_DUMP_DIR="/tmp/cluster-dump-2025-08-13_09-35-15/cluster-dump"
+PARENT_DIR="/tmp/cluster-dump-$(date +%F_%H-%M-%S)"
+CLUSTER_DUMP_DIR="${PARENT_DIR}/cluster-dump"
+mkdir -p "${CLUSTER_DUMP_DIR}"
 
 echo "🚀 Kubernetes Cluster Enhancement Script Started..."
 echo "📁 Working with directory: ${CLUSTER_DUMP_DIR}"
