@@ -2265,3 +2265,2991 @@
 =============================================
 
 ```
+
+## Archved file structure:
+```
+tree /tmp/cluster-dump-2025-08-13_09-35-15/cluster-dump
+/tmp/cluster-dump-2025-08-13_09-35-15/cluster-dump
+├── api-versions.txt
+├── capi-kubeadm-bootstrap-system
+│   ├── capi-kubeadm-bootstrap-controller-manager-74fbfd6df6-5ct46
+│   │   └── logs.txt
+│   ├── configmaps-describe.txt
+│   ├── configmaps.yaml
+│   ├── cronjobs-describe.txt
+│   ├── cronjobs.yaml
+│   ├── daemonsets-describe.txt
+│   ├── daemonsets.yaml
+│   ├── deployments-describe.txt
+│   ├── deployments.yaml
+│   ├── endpoints-describe.txt
+│   ├── endpoints.yaml
+│   ├── events-describe.txt
+│   ├── events.yaml
+│   ├── ingresses-describe.txt
+│   ├── ingresses.yaml
+│   ├── jobs-describe.txt
+│   ├── jobs.yaml
+│   ├── networkpolicies-describe.txt
+│   ├── networkpolicies.yaml
+│   ├── persistentvolumeclaims-describe.txt
+│   ├── persistentvolumeclaims.yaml
+│   ├── poddisruptionbudgets-describe.txt
+│   ├── poddisruptionbudgets.yaml
+│   ├── pods-describe.txt
+│   ├── pods.yaml
+│   ├── replicasets-describe.txt
+│   ├── replicasets.yaml
+│   ├── replication-controllers.yaml
+│   ├── resourcequotas-describe.txt
+│   ├── resourcequotas.yaml
+│   ├── rolebindings-describe.txt
+│   ├── rolebindings.yaml
+│   ├── roles-describe.txt
+│   ├── roles.yaml
+│   ├── secrets-describe.txt
+│   ├── secrets.yaml
+│   ├── services-describe.txt
+│   ├── services.yaml
+│   ├── statefulsets-describe.txt
+│   └── statefulsets.yaml
+├── capi-system
+│   ├── capi-controller-manager-7f5cd76bfd-p9jqg
+│   │   └── logs.txt
+│   ├── configmaps-describe.txt
+│   ├── configmaps.yaml
+│   ├── cronjobs-describe.txt
+│   ├── cronjobs.yaml
+│   ├── daemonsets-describe.txt
+│   ├── daemonsets.yaml
+│   ├── deployments-describe.txt
+│   ├── deployments.yaml
+│   ├── endpoints-describe.txt
+│   ├── endpoints.yaml
+│   ├── events-describe.txt
+│   ├── events.yaml
+│   ├── ingresses-describe.txt
+│   ├── ingresses.yaml
+│   ├── jobs-describe.txt
+│   ├── jobs.yaml
+│   ├── networkpolicies-describe.txt
+│   ├── networkpolicies.yaml
+│   ├── persistentvolumeclaims-describe.txt
+│   ├── persistentvolumeclaims.yaml
+│   ├── poddisruptionbudgets-describe.txt
+│   ├── poddisruptionbudgets.yaml
+│   ├── pods-describe.txt
+│   ├── pods.yaml
+│   ├── replicasets-describe.txt
+│   ├── replicasets.yaml
+│   ├── replication-controllers.yaml
+│   ├── resourcequotas-describe.txt
+│   ├── resourcequotas.yaml
+│   ├── rolebindings-describe.txt
+│   ├── rolebindings.yaml
+│   ├── roles-describe.txt
+│   ├── roles.yaml
+│   ├── secrets-describe.txt
+│   ├── secrets.yaml
+│   ├── services-describe.txt
+│   ├── services.yaml
+│   ├── statefulsets-describe.txt
+│   └── statefulsets.yaml
+├── capo-system
+│   ├── capo-controller-manager-696fd87547-pvxkr
+│   │   └── logs.txt
+│   ├── configmaps-describe.txt
+│   ├── configmaps.yaml
+│   ├── cronjobs-describe.txt
+│   ├── cronjobs.yaml
+│   ├── daemonsets-describe.txt
+│   ├── daemonsets.yaml
+│   ├── deployments-describe.txt
+│   ├── deployments.yaml
+│   ├── endpoints-describe.txt
+│   ├── endpoints.yaml
+│   ├── events-describe.txt
+│   ├── events.yaml
+│   ├── ingresses-describe.txt
+│   ├── ingresses.yaml
+│   ├── jobs-describe.txt
+│   ├── jobs.yaml
+│   ├── networkpolicies-describe.txt
+│   ├── networkpolicies.yaml
+│   ├── persistentvolumeclaims-describe.txt
+│   ├── persistentvolumeclaims.yaml
+│   ├── poddisruptionbudgets-describe.txt
+│   ├── poddisruptionbudgets.yaml
+│   ├── pods-describe.txt
+│   ├── pods.yaml
+│   ├── replicasets-describe.txt
+│   ├── replicasets.yaml
+│   ├── replication-controllers.yaml
+│   ├── resourcequotas-describe.txt
+│   ├── resourcequotas.yaml
+│   ├── rolebindings-describe.txt
+│   ├── rolebindings.yaml
+│   ├── roles-describe.txt
+│   ├── roles.yaml
+│   ├── secrets-describe.txt
+│   ├── secrets.yaml
+│   ├── services-describe.txt
+│   ├── services.yaml
+│   ├── statefulsets-describe.txt
+│   └── statefulsets.yaml
+├── cert-manager
+│   ├── cert-manager-6fdf59d67c-mj8vc
+│   │   └── logs.txt
+│   ├── cert-manager-cainjector-5bc5f696d-bb4zm
+│   │   └── logs.txt
+│   ├── cert-manager-webhook-6647876b6f-6fhkv
+│   │   └── logs.txt
+│   ├── configmaps-describe.txt
+│   ├── configmaps.yaml
+│   ├── cronjobs-describe.txt
+│   ├── cronjobs.yaml
+│   ├── daemonsets-describe.txt
+│   ├── daemonsets.yaml
+│   ├── deployments-describe.txt
+│   ├── deployments.yaml
+│   ├── endpoints-describe.txt
+│   ├── endpoints.yaml
+│   ├── events-describe.txt
+│   ├── events.yaml
+│   ├── ingresses-describe.txt
+│   ├── ingresses.yaml
+│   ├── jobs-describe.txt
+│   ├── jobs.yaml
+│   ├── networkpolicies-describe.txt
+│   ├── networkpolicies.yaml
+│   ├── persistentvolumeclaims-describe.txt
+│   ├── persistentvolumeclaims.yaml
+│   ├── poddisruptionbudgets-describe.txt
+│   ├── poddisruptionbudgets.yaml
+│   ├── pods-describe.txt
+│   ├── pods.yaml
+│   ├── replicasets-describe.txt
+│   ├── replicasets.yaml
+│   ├── replication-controllers.yaml
+│   ├── resourcequotas-describe.txt
+│   ├── resourcequotas.yaml
+│   ├── rolebindings-describe.txt
+│   ├── rolebindings.yaml
+│   ├── roles-describe.txt
+│   ├── roles.yaml
+│   ├── secrets-describe.txt
+│   ├── secrets.yaml
+│   ├── services-describe.txt
+│   ├── services.yaml
+│   ├── statefulsets-describe.txt
+│   └── statefulsets.yaml
+├── cluster
+│   ├── describe-outputs
+│   │   ├── clusterrolebindings-describe.txt
+│   │   ├── clusterroles-describe.txt
+│   │   ├── csidrivers-describe.txt
+│   │   ├── csinodes-describe.txt
+│   │   ├── csistoragecapacities-describe.txt
+│   │   ├── ingressclasses-describe.txt
+│   │   ├── persistentvolumes-describe.txt
+│   │   └── storageclasses-describe.txt
+│   └── yaml-outputs
+│       ├── clusterrolebindings.yaml
+│       ├── clusterroles.yaml
+│       ├── csidrivers.yaml
+│       ├── csinodes.yaml
+│       ├── csistoragecapacities.yaml
+│       ├── ingressclasses.yaml
+│       ├── nodes.yaml
+│       ├── persistentvolumes.yaml
+│       └── storageclasses.yaml
+├── cluster-version.txt
+├── clusterrolebindings-describe.txt
+├── clusterrolebindings.yaml
+├── clusterroles-describe.txt
+├── clusterroles.yaml
+├── csidrivers-describe.txt
+├── csidrivers.yaml
+├── csinodes-describe.txt
+├── csinodes.yaml
+├── csistoragecapacities-describe.txt
+├── csistoragecapacities.yaml
+├── customresourcedefinitions-describe.txt
+├── customresourcedefinitions.yaml
+├── default
+│   ├── configmaps-describe.txt
+│   ├── configmaps.yaml
+│   ├── cronjobs-describe.txt
+│   ├── cronjobs.yaml
+│   ├── daemonsets-describe.txt
+│   ├── daemonsets.yaml
+│   ├── debug-pod
+│   │   └── logs.txt
+│   ├── decco-consul-consul-server-0
+│   │   └── logs.txt
+│   ├── decco-consul-consul-server-1
+│   │   └── logs.txt
+│   ├── decco-consul-consul-server-2
+│   │   └── logs.txt
+│   ├── decco-vault-0
+│   │   └── logs.txt
+│   ├── deployments-describe.txt
+│   ├── deployments.yaml
+│   ├── endpoints-describe.txt
+│   ├── endpoints.yaml
+│   ├── events-describe.txt
+│   ├── events.yaml
+│   ├── ingresses-describe.txt
+│   ├── ingresses.yaml
+│   ├── jobs-describe.txt
+│   ├── jobs.yaml
+│   ├── networkpolicies-describe.txt
+│   ├── networkpolicies.yaml
+│   ├── persistentvolumeclaims-describe.txt
+│   ├── persistentvolumeclaims.yaml
+│   ├── poddisruptionbudgets-describe.txt
+│   ├── poddisruptionbudgets.yaml
+│   ├── pods-describe.txt
+│   ├── pods.yaml
+│   ├── replicasets-describe.txt
+│   ├── replicasets.yaml
+│   ├── replication-controllers.yaml
+│   ├── resourcequotas-describe.txt
+│   ├── resourcequotas.yaml
+│   ├── rolebindings-describe.txt
+│   ├── rolebindings.yaml
+│   ├── roles-describe.txt
+│   ├── roles.yaml
+│   ├── secrets-describe.txt
+│   ├── secrets.yaml
+│   ├── services-describe.txt
+│   ├── services.yaml
+│   ├── statefulsets-describe.txt
+│   └── statefulsets.yaml
+├── hostpath-provisioner
+│   ├── configmaps-describe.txt
+│   ├── configmaps.yaml
+│   ├── cronjobs-describe.txt
+│   ├── cronjobs.yaml
+│   ├── daemonsets-describe.txt
+│   ├── daemonsets.yaml
+│   ├── deployments-describe.txt
+│   ├── deployments.yaml
+│   ├── endpoints-describe.txt
+│   ├── endpoints.yaml
+│   ├── events-describe.txt
+│   ├── events.yaml
+│   ├── hostpath-provisioner-csi-h97v7
+│   │   └── logs.txt
+│   ├── hostpath-provisioner-csi-hvmsx
+│   │   └── logs.txt
+│   ├── hostpath-provisioner-csi-wrzqj
+│   │   └── logs.txt
+│   ├── hostpath-provisioner-operator-7f7d6fbcbc-kg6z9
+│   │   └── logs.txt
+│   ├── ingresses-describe.txt
+│   ├── ingresses.yaml
+│   ├── jobs-describe.txt
+│   ├── jobs.yaml
+│   ├── networkpolicies-describe.txt
+│   ├── networkpolicies.yaml
+│   ├── persistentvolumeclaims-describe.txt
+│   ├── persistentvolumeclaims.yaml
+│   ├── poddisruptionbudgets-describe.txt
+│   ├── poddisruptionbudgets.yaml
+│   ├── pods-describe.txt
+│   ├── pods.yaml
+│   ├── replicasets-describe.txt
+│   ├── replicasets.yaml
+│   ├── replication-controllers.yaml
+│   ├── resourcequotas-describe.txt
+│   ├── resourcequotas.yaml
+│   ├── rolebindings-describe.txt
+│   ├── rolebindings.yaml
+│   ├── roles-describe.txt
+│   ├── roles.yaml
+│   ├── secrets-describe.txt
+│   ├── secrets.yaml
+│   ├── services-describe.txt
+│   ├── services.yaml
+│   ├── statefulsets-describe.txt
+│   └── statefulsets.yaml
+├── ingressclasses-describe.txt
+├── ingressclasses.yaml
+├── integrity.checksums
+├── k8sniff
+│   ├── configmaps-describe.txt
+│   ├── configmaps.yaml
+│   ├── cronjobs-describe.txt
+│   ├── cronjobs.yaml
+│   ├── daemonsets-describe.txt
+│   ├── daemonsets.yaml
+│   ├── deployments-describe.txt
+│   ├── deployments.yaml
+│   ├── endpoints-describe.txt
+│   ├── endpoints.yaml
+│   ├── events-describe.txt
+│   ├── events.yaml
+│   ├── ingresses-describe.txt
+│   ├── ingresses.yaml
+│   ├── jobs-describe.txt
+│   ├── jobs.yaml
+│   ├── k8sniff-67b7f4dc6b-4c7h7
+│   │   └── logs.txt
+│   ├── k8sniff-67b7f4dc6b-djvtd
+│   │   └── logs.txt
+│   ├── networkpolicies-describe.txt
+│   ├── networkpolicies.yaml
+│   ├── persistentvolumeclaims-describe.txt
+│   ├── persistentvolumeclaims.yaml
+│   ├── poddisruptionbudgets-describe.txt
+│   ├── poddisruptionbudgets.yaml
+│   ├── pods-describe.txt
+│   ├── pods.yaml
+│   ├── replicasets-describe.txt
+│   ├── replicasets.yaml
+│   ├── replication-controllers.yaml
+│   ├── resourcequotas-describe.txt
+│   ├── resourcequotas.yaml
+│   ├── rolebindings-describe.txt
+│   ├── rolebindings.yaml
+│   ├── roles-describe.txt
+│   ├── roles.yaml
+│   ├── secrets-describe.txt
+│   ├── secrets.yaml
+│   ├── services-describe.txt
+│   ├── services.yaml
+│   ├── statefulsets-describe.txt
+│   └── statefulsets.yaml
+├── kaapi
+│   ├── access-manager-64645cb9f5-vjlrk
+│   │   └── logs.txt
+│   ├── addon-controller-6958c84696-7nthg
+│   │   └── logs.txt
+│   ├── barista-controller-manager-fbf7bd7f4-v4rc4
+│   │   └── logs.txt
+│   ├── byoh-controller-manager-59d877fc84-54knq
+│   │   └── logs.txt
+│   ├── classifier-manager-7d675c7cbb-mlbf8
+│   │   └── logs.txt
+│   ├── configmaps-describe.txt
+│   ├── configmaps.yaml
+│   ├── conversion-webhook-6bb4965764-2trgx
+│   │   └── logs.txt
+│   ├── cronjobs-describe.txt
+│   ├── cronjobs.yaml
+│   ├── daemonsets-describe.txt
+│   ├── daemonsets.yaml
+│   ├── deployments-describe.txt
+│   ├── deployments.yaml
+│   ├── endpoints-describe.txt
+│   ├── endpoints.yaml
+│   ├── event-manager-7cd786c977-5h9sz
+│   │   └── logs.txt
+│   ├── events-describe.txt
+│   ├── events.yaml
+│   ├── hc-manager-79f89b7fb-2lm9t
+│   │   └── logs.txt
+│   ├── hcp-controller-manager-9bc9797bf-f86qj
+│   │   └── logs.txt
+│   ├── ingresses-describe.txt
+│   ├── ingresses.yaml
+│   ├── jobs-describe.txt
+│   ├── jobs.yaml
+│   ├── kaapi-management-plane-cluster-api-operator-754749f7cb-6hbcl
+│   │   └── logs.txt
+│   ├── kaapi-management-plane-kamaji-797cfb79dc-5wrf2
+│   │   └── logs.txt
+│   ├── kaapi-management-plane-kube-state-metrics-66fcbc4bcd-rnz8n
+│   │   └── logs.txt
+│   ├── kamaji-etcd-0
+│   │   └── logs.txt
+│   ├── kamaji-etcd-1
+│   │   └── logs.txt
+│   ├── kamaji-etcd-2
+│   │   └── logs.txt
+│   ├── networkpolicies-describe.txt
+│   ├── networkpolicies.yaml
+│   ├── persistentvolumeclaims-describe.txt
+│   ├── persistentvolumeclaims.yaml
+│   ├── poddisruptionbudgets-describe.txt
+│   ├── poddisruptionbudgets.yaml
+│   ├── pods-describe.txt
+│   ├── pods.yaml
+│   ├── replicasets-describe.txt
+│   ├── replicasets.yaml
+│   ├── replication-controllers.yaml
+│   ├── resourcequotas-describe.txt
+│   ├── resourcequotas.yaml
+│   ├── rolebindings-describe.txt
+│   ├── rolebindings.yaml
+│   ├── roles-describe.txt
+│   ├── roles.yaml
+│   ├── sc-manager-7b5cb86b5d-7x6sm
+│   │   └── logs.txt
+│   ├── secrets-describe.txt
+│   ├── secrets.yaml
+│   ├── services-describe.txt
+│   ├── services.yaml
+│   ├── shard-controller-6d69d89c88-6w674
+│   │   └── logs.txt
+│   ├── statefulsets-describe.txt
+│   └── statefulsets.yaml
+├── kube-node-lease
+│   ├── configmaps-describe.txt
+│   ├── configmaps.yaml
+│   ├── cronjobs-describe.txt
+│   ├── cronjobs.yaml
+│   ├── daemonsets-describe.txt
+│   ├── daemonsets.yaml
+│   ├── deployments-describe.txt
+│   ├── deployments.yaml
+│   ├── endpoints-describe.txt
+│   ├── endpoints.yaml
+│   ├── events-describe.txt
+│   ├── events.yaml
+│   ├── ingresses-describe.txt
+│   ├── ingresses.yaml
+│   ├── jobs-describe.txt
+│   ├── jobs.yaml
+│   ├── networkpolicies-describe.txt
+│   ├── networkpolicies.yaml
+│   ├── persistentvolumeclaims-describe.txt
+│   ├── persistentvolumeclaims.yaml
+│   ├── poddisruptionbudgets-describe.txt
+│   ├── poddisruptionbudgets.yaml
+│   ├── pods-describe.txt
+│   ├── pods.yaml
+│   ├── replicasets-describe.txt
+│   ├── replicasets.yaml
+│   ├── replication-controllers.yaml
+│   ├── resourcequotas-describe.txt
+│   ├── resourcequotas.yaml
+│   ├── rolebindings-describe.txt
+│   ├── rolebindings.yaml
+│   ├── roles-describe.txt
+│   ├── roles.yaml
+│   ├── secrets-describe.txt
+│   ├── secrets.yaml
+│   ├── services-describe.txt
+│   ├── services.yaml
+│   ├── statefulsets-describe.txt
+│   └── statefulsets.yaml
+├── kube-public
+│   ├── configmaps-describe.txt
+│   ├── configmaps.yaml
+│   ├── cronjobs-describe.txt
+│   ├── cronjobs.yaml
+│   ├── daemonsets-describe.txt
+│   ├── daemonsets.yaml
+│   ├── deployments-describe.txt
+│   ├── deployments.yaml
+│   ├── endpoints-describe.txt
+│   ├── endpoints.yaml
+│   ├── events-describe.txt
+│   ├── events.yaml
+│   ├── ingresses-describe.txt
+│   ├── ingresses.yaml
+│   ├── jobs-describe.txt
+│   ├── jobs.yaml
+│   ├── networkpolicies-describe.txt
+│   ├── networkpolicies.yaml
+│   ├── persistentvolumeclaims-describe.txt
+│   ├── persistentvolumeclaims.yaml
+│   ├── poddisruptionbudgets-describe.txt
+│   ├── poddisruptionbudgets.yaml
+│   ├── pods-describe.txt
+│   ├── pods.yaml
+│   ├── replicasets-describe.txt
+│   ├── replicasets.yaml
+│   ├── replication-controllers.yaml
+│   ├── resourcequotas-describe.txt
+│   ├── resourcequotas.yaml
+│   ├── rolebindings-describe.txt
+│   ├── rolebindings.yaml
+│   ├── roles-describe.txt
+│   ├── roles.yaml
+│   ├── secrets-describe.txt
+│   ├── secrets.yaml
+│   ├── services-describe.txt
+│   ├── services.yaml
+│   ├── statefulsets-describe.txt
+│   └── statefulsets.yaml
+├── kube-system
+│   ├── calico-kube-controllers-5d5cffdb8b-4bgxt
+│   │   └── logs.txt
+│   ├── calico-node-488xx
+│   │   └── logs.txt
+│   ├── calico-node-9mncj
+│   │   └── logs.txt
+│   ├── calico-node-nltst
+│   │   └── logs.txt
+│   ├── calico-typha-65b944b445-8whps
+│   │   └── logs.txt
+│   ├── calico-typha-65b944b445-9fbdp
+│   │   └── logs.txt
+│   ├── calico-typha-65b944b445-kt2f7
+│   │   └── logs.txt
+│   ├── calico-typha-autoscaler-55547fbb69-x5lvj
+│   │   └── logs.txt
+│   ├── configmaps-describe.txt
+│   ├── configmaps.yaml
+│   ├── coredns-fc6bdfd64-pbp4g
+│   │   └── logs.txt
+│   ├── cronjobs-describe.txt
+│   ├── cronjobs.yaml
+│   ├── csi-nfs-controller-546694fbc4-qmbcb
+│   │   └── logs.txt
+│   ├── csi-nfs-node-97h92
+│   │   └── logs.txt
+│   ├── csi-nfs-node-9dgmq
+│   │   └── logs.txt
+│   ├── csi-nfs-node-lzjjx
+│   │   └── logs.txt
+│   ├── daemonsets-describe.txt
+│   ├── daemonsets.yaml
+│   ├── deployments-describe.txt
+│   ├── deployments.yaml
+│   ├── endpoints-describe.txt
+│   ├── endpoints.yaml
+│   ├── events-describe.txt
+│   ├── events.yaml
+│   ├── ingresses-describe.txt
+│   ├── ingresses.yaml
+│   ├── jobs-describe.txt
+│   ├── jobs.yaml
+│   ├── k8s-master-172.29.20.151
+│   │   └── logs.txt
+│   ├── k8s-master-172.29.20.192
+│   │   └── logs.txt
+│   ├── k8s-master-172.29.21.71
+│   │   └── logs.txt
+│   ├── kube-dns-autoscaler-7d87ff9d8c-mgclw
+│   │   └── logs.txt
+│   ├── metrics-server-d5865ff47-tz7lz
+│   │   └── logs.txt
+│   ├── networkpolicies-describe.txt
+│   ├── networkpolicies.yaml
+│   ├── node-local-dns-58xk7
+│   │   └── logs.txt
+│   ├── node-local-dns-kwnj2
+│   │   └── logs.txt
+│   ├── node-local-dns-z2vb9
+│   │   └── logs.txt
+│   ├── persistentvolumeclaims-describe.txt
+│   ├── persistentvolumeclaims.yaml
+│   ├── poddisruptionbudgets-describe.txt
+│   ├── poddisruptionbudgets.yaml
+│   ├── pods-describe.txt
+│   ├── pods.yaml
+│   ├── replicasets-describe.txt
+│   ├── replicasets.yaml
+│   ├── replication-controllers.yaml
+│   ├── resourcequotas-describe.txt
+│   ├── resourcequotas.yaml
+│   ├── rolebindings-describe.txt
+│   ├── rolebindings.yaml
+│   ├── roles-describe.txt
+│   ├── roles.yaml
+│   ├── secrets-describe.txt
+│   ├── secrets.yaml
+│   ├── services-describe.txt
+│   ├── services.yaml
+│   ├── snapshot-controller-64d57d5db4-pdfwm
+│   │   └── logs.txt
+│   ├── snapshot-controller-64d57d5db4-pjpl7
+│   │   └── logs.txt
+│   ├── socat-forwarder-172.29.20.151
+│   │   └── logs.txt
+│   ├── socat-forwarder-172.29.20.192
+│   │   └── logs.txt
+│   ├── socat-forwarder-172.29.21.71
+│   │   └── logs.txt
+│   ├── statefulsets-describe.txt
+│   └── statefulsets.yaml
+├── kubernetes-replicator
+│   ├── configmaps-describe.txt
+│   ├── configmaps.yaml
+│   ├── cronjobs-describe.txt
+│   ├── cronjobs.yaml
+│   ├── daemonsets-describe.txt
+│   ├── daemonsets.yaml
+│   ├── deployments-describe.txt
+│   ├── deployments.yaml
+│   ├── endpoints-describe.txt
+│   ├── endpoints.yaml
+│   ├── events-describe.txt
+│   ├── events.yaml
+│   ├── ingresses-describe.txt
+│   ├── ingresses.yaml
+│   ├── jobs-describe.txt
+│   ├── jobs.yaml
+│   ├── networkpolicies-describe.txt
+│   ├── networkpolicies.yaml
+│   ├── persistentvolumeclaims-describe.txt
+│   ├── persistentvolumeclaims.yaml
+│   ├── poddisruptionbudgets-describe.txt
+│   ├── poddisruptionbudgets.yaml
+│   ├── pods-describe.txt
+│   ├── pods.yaml
+│   ├── replicasets-describe.txt
+│   ├── replicasets.yaml
+│   ├── replication-controllers.yaml
+│   ├── replicator-kubernetes-replicator-7945cd4d47-2wtrt
+│   │   └── logs.txt
+│   ├── resourcequotas-describe.txt
+│   ├── resourcequotas.yaml
+│   ├── rolebindings-describe.txt
+│   ├── rolebindings.yaml
+│   ├── roles-describe.txt
+│   ├── roles.yaml
+│   ├── secrets-describe.txt
+│   ├── secrets.yaml
+│   ├── services-describe.txt
+│   ├── services.yaml
+│   ├── statefulsets-describe.txt
+│   └── statefulsets.yaml
+├── kubeview
+│   ├── configmaps-describe.txt
+│   ├── configmaps.yaml
+│   ├── cronjobs-describe.txt
+│   ├── cronjobs.yaml
+│   ├── daemonsets-describe.txt
+│   ├── daemonsets.yaml
+│   ├── deployments-describe.txt
+│   ├── deployments.yaml
+│   ├── endpoints-describe.txt
+│   ├── endpoints.yaml
+│   ├── events-describe.txt
+│   ├── events.yaml
+│   ├── ingresses-describe.txt
+│   ├── ingresses.yaml
+│   ├── jobs-describe.txt
+│   ├── jobs.yaml
+│   ├── networkpolicies-describe.txt
+│   ├── networkpolicies.yaml
+│   ├── persistentvolumeclaims-describe.txt
+│   ├── persistentvolumeclaims.yaml
+│   ├── poddisruptionbudgets-describe.txt
+│   ├── poddisruptionbudgets.yaml
+│   ├── pods-describe.txt
+│   ├── pods.yaml
+│   ├── replicasets-describe.txt
+│   ├── replicasets.yaml
+│   ├── replication-controllers.yaml
+│   ├── resourcequotas-describe.txt
+│   ├── resourcequotas.yaml
+│   ├── rolebindings-describe.txt
+│   ├── rolebindings.yaml
+│   ├── roles-describe.txt
+│   ├── roles.yaml
+│   ├── secrets-describe.txt
+│   ├── secrets.yaml
+│   ├── services-describe.txt
+│   ├── services.yaml
+│   ├── statefulsets-describe.txt
+│   └── statefulsets.yaml
+├── kubevious
+│   ├── configmaps-describe.txt
+│   ├── configmaps.yaml
+│   ├── cronjobs-describe.txt
+│   ├── cronjobs.yaml
+│   ├── daemonsets-describe.txt
+│   ├── daemonsets.yaml
+│   ├── deployments-describe.txt
+│   ├── deployments.yaml
+│   ├── endpoints-describe.txt
+│   ├── endpoints.yaml
+│   ├── events-describe.txt
+│   ├── events.yaml
+│   ├── ingresses-describe.txt
+│   ├── ingresses.yaml
+│   ├── jobs-describe.txt
+│   ├── jobs.yaml
+│   ├── kubevious-backend-546566f59f-5zwbk
+│   │   └── logs.txt
+│   ├── kubevious-collector-5697b486d8-lzqt4
+│   │   └── logs.txt
+│   ├── kubevious-guard-664bd4dd4b-l2bt4
+│   │   └── logs.txt
+│   ├── kubevious-ingress-ingress-nginx-controller-65846967b8-69ztw
+│   │   └── logs.txt
+│   ├── kubevious-mysql-0
+│   │   └── logs.txt
+│   ├── kubevious-parser-5bb8f9dbd6-dwhrf
+│   │   └── logs.txt
+│   ├── kubevious-redis-0
+│   │   └── logs.txt
+│   ├── kubevious-ui-7c898494f8-9sdr9
+│   │   └── logs.txt
+│   ├── networkpolicies-describe.txt
+│   ├── networkpolicies.yaml
+│   ├── persistentvolumeclaims-describe.txt
+│   ├── persistentvolumeclaims.yaml
+│   ├── poddisruptionbudgets-describe.txt
+│   ├── poddisruptionbudgets.yaml
+│   ├── pods-describe.txt
+│   ├── pods.yaml
+│   ├── replicasets-describe.txt
+│   ├── replicasets.yaml
+│   ├── replication-controllers.yaml
+│   ├── resourcequotas-describe.txt
+│   ├── resourcequotas.yaml
+│   ├── rolebindings-describe.txt
+│   ├── rolebindings.yaml
+│   ├── roles-describe.txt
+│   ├── roles.yaml
+│   ├── secrets-describe.txt
+│   ├── secrets.yaml
+│   ├── services-describe.txt
+│   ├── services.yaml
+│   ├── statefulsets-describe.txt
+│   └── statefulsets.yaml
+├── logging
+│   ├── configmaps-describe.txt
+│   ├── configmaps.yaml
+│   ├── cronjobs-describe.txt
+│   ├── cronjobs.yaml
+│   ├── daemonsets-describe.txt
+│   ├── daemonsets.yaml
+│   ├── deployments-describe.txt
+│   ├── deployments.yaml
+│   ├── endpoints-describe.txt
+│   ├── endpoints.yaml
+│   ├── events-describe.txt
+│   ├── events.yaml
+│   ├── fluent-bit-8lmdb
+│   │   └── logs.txt
+│   ├── fluent-bit-g2lhb
+│   │   └── logs.txt
+│   ├── fluent-bit-pdwc2
+│   │   └── logs.txt
+│   ├── ingresses-describe.txt
+│   ├── ingresses.yaml
+│   ├── jobs-describe.txt
+│   ├── jobs.yaml
+│   ├── networkpolicies-describe.txt
+│   ├── networkpolicies.yaml
+│   ├── persistentvolumeclaims-describe.txt
+│   ├── persistentvolumeclaims.yaml
+│   ├── poddisruptionbudgets-describe.txt
+│   ├── poddisruptionbudgets.yaml
+│   ├── pods-describe.txt
+│   ├── pods.yaml
+│   ├── replicasets-describe.txt
+│   ├── replicasets.yaml
+│   ├── replication-controllers.yaml
+│   ├── resourcequotas-describe.txt
+│   ├── resourcequotas.yaml
+│   ├── rolebindings-describe.txt
+│   ├── rolebindings.yaml
+│   ├── roles-describe.txt
+│   ├── roles.yaml
+│   ├── secrets-describe.txt
+│   ├── secrets.yaml
+│   ├── services-describe.txt
+│   ├── services.yaml
+│   ├── statefulsets-describe.txt
+│   └── statefulsets.yaml
+├── metallb-system
+│   ├── configmaps-describe.txt
+│   ├── configmaps.yaml
+│   ├── controller-75447b664c-xwrjn
+│   │   └── logs.txt
+│   ├── cronjobs-describe.txt
+│   ├── cronjobs.yaml
+│   ├── daemonsets-describe.txt
+│   ├── daemonsets.yaml
+│   ├── deployments-describe.txt
+│   ├── deployments.yaml
+│   ├── endpoints-describe.txt
+│   ├── endpoints.yaml
+│   ├── events-describe.txt
+│   ├── events.yaml
+│   ├── ingresses-describe.txt
+│   ├── ingresses.yaml
+│   ├── jobs-describe.txt
+│   ├── jobs.yaml
+│   ├── networkpolicies-describe.txt
+│   ├── networkpolicies.yaml
+│   ├── persistentvolumeclaims-describe.txt
+│   ├── persistentvolumeclaims.yaml
+│   ├── poddisruptionbudgets-describe.txt
+│   ├── poddisruptionbudgets.yaml
+│   ├── pods-describe.txt
+│   ├── pods.yaml
+│   ├── replicasets-describe.txt
+│   ├── replicasets.yaml
+│   ├── replication-controllers.yaml
+│   ├── resourcequotas-describe.txt
+│   ├── resourcequotas.yaml
+│   ├── rolebindings-describe.txt
+│   ├── rolebindings.yaml
+│   ├── roles-describe.txt
+│   ├── roles.yaml
+│   ├── secrets-describe.txt
+│   ├── secrets.yaml
+│   ├── services-describe.txt
+│   ├── services.yaml
+│   ├── speaker-6j7rq
+│   │   └── logs.txt
+│   ├── speaker-gcp5j
+│   │   └── logs.txt
+│   ├── speaker-vklz7
+│   │   └── logs.txt
+│   ├── statefulsets-describe.txt
+│   └── statefulsets.yaml
+├── metrics
+│   ├── all-events.txt
+│   ├── cluster-version.txt
+│   ├── component-status.txt
+│   ├── nodes-detailed.txt
+│   ├── nodes-usage.txt
+│   └── pods-usage.txt
+├── mgmt
+│   ├── configmaps-describe.txt
+│   ├── configmaps.yaml
+│   ├── cronjobs-describe.txt
+│   ├── cronjobs.yaml
+│   ├── daemonsets-describe.txt
+│   ├── daemonsets.yaml
+│   ├── deployments-describe.txt
+│   ├── deployments.yaml
+│   ├── endpoints-describe.txt
+│   ├── endpoints.yaml
+│   ├── events-describe.txt
+│   ├── events.yaml
+│   ├── ingresses-describe.txt
+│   ├── ingresses.yaml
+│   ├── jobs-describe.txt
+│   ├── jobs.yaml
+│   ├── networkpolicies-describe.txt
+│   ├── networkpolicies.yaml
+│   ├── persistentvolumeclaims-describe.txt
+│   ├── persistentvolumeclaims.yaml
+│   ├── poddisruptionbudgets-describe.txt
+│   ├── poddisruptionbudgets.yaml
+│   ├── pods-describe.txt
+│   ├── pods.yaml
+│   ├── replicasets-describe.txt
+│   ├── replicasets.yaml
+│   ├── replication-controllers.yaml
+│   ├── resourcequotas-describe.txt
+│   ├── resourcequotas.yaml
+│   ├── rolebindings-describe.txt
+│   ├── rolebindings.yaml
+│   ├── roles-describe.txt
+│   ├── roles.yaml
+│   ├── secrets-describe.txt
+│   ├── secrets.yaml
+│   ├── services-describe.txt
+│   ├── services.yaml
+│   ├── statefulsets-describe.txt
+│   └── statefulsets.yaml
+├── minio
+│   ├── configmaps-describe.txt
+│   ├── configmaps.yaml
+│   ├── cronjobs-describe.txt
+│   ├── cronjobs.yaml
+│   ├── daemonsets-describe.txt
+│   ├── daemonsets.yaml
+│   ├── deployments-describe.txt
+│   ├── deployments.yaml
+│   ├── endpoints-describe.txt
+│   ├── endpoints.yaml
+│   ├── events-describe.txt
+│   ├── events.yaml
+│   ├── ingresses-describe.txt
+│   ├── ingresses.yaml
+│   ├── jobs-describe.txt
+│   ├── jobs.yaml
+│   ├── networkpolicies-describe.txt
+│   ├── networkpolicies.yaml
+│   ├── persistentvolumeclaims-describe.txt
+│   ├── persistentvolumeclaims.yaml
+│   ├── poddisruptionbudgets-describe.txt
+│   ├── poddisruptionbudgets.yaml
+│   ├── pods-describe.txt
+│   ├── pods.yaml
+│   ├── replicasets-describe.txt
+│   ├── replicasets.yaml
+│   ├── replication-controllers.yaml
+│   ├── resourcequotas-describe.txt
+│   ├── resourcequotas.yaml
+│   ├── rolebindings-describe.txt
+│   ├── rolebindings.yaml
+│   ├── roles-describe.txt
+│   ├── roles.yaml
+│   ├── secrets-describe.txt
+│   ├── secrets.yaml
+│   ├── services-describe.txt
+│   ├── services.yaml
+│   ├── statefulsets-describe.txt
+│   └── statefulsets.yaml
+├── monitoring
+│   ├── configmaps-describe.txt
+│   ├── configmaps.yaml
+│   ├── cronjobs-describe.txt
+│   ├── cronjobs.yaml
+│   ├── daemonsets-describe.txt
+│   ├── daemonsets.yaml
+│   ├── deployments-describe.txt
+│   ├── deployments.yaml
+│   ├── endpoints-describe.txt
+│   ├── endpoints.yaml
+│   ├── events-describe.txt
+│   ├── events.yaml
+│   ├── ingresses-describe.txt
+│   ├── ingresses.yaml
+│   ├── jobs-describe.txt
+│   ├── jobs.yaml
+│   ├── kube-state-metrics-7d74755d6f-vwx5l
+│   │   └── logs.txt
+│   ├── networkpolicies-describe.txt
+│   ├── networkpolicies.yaml
+│   ├── node-exporter-prometheus-node-exporter-65xvb
+│   │   └── logs.txt
+│   ├── node-exporter-prometheus-node-exporter-rfxw8
+│   │   └── logs.txt
+│   ├── node-exporter-prometheus-node-exporter-xwfrk
+│   │   └── logs.txt
+│   ├── persistentvolumeclaims-describe.txt
+│   ├── persistentvolumeclaims.yaml
+│   ├── poddisruptionbudgets-describe.txt
+│   ├── poddisruptionbudgets.yaml
+│   ├── pods-describe.txt
+│   ├── pods.yaml
+│   ├── prometheus-alertmanager-0
+│   │   └── logs.txt
+│   ├── prometheus-kube-state-metrics-7dbd69c85d-c94ll
+│   │   └── logs.txt
+│   ├── prometheus-prometheus-pushgateway-59fbbb5f6-z7krq
+│   │   └── logs.txt
+│   ├── prometheus-server-954477f8c-6pqw7
+│   │   └── logs.txt
+│   ├── replicasets-describe.txt
+│   ├── replicasets.yaml
+│   ├── replication-controllers.yaml
+│   ├── resourcequotas-describe.txt
+│   ├── resourcequotas.yaml
+│   ├── rolebindings-describe.txt
+│   ├── rolebindings.yaml
+│   ├── roles-describe.txt
+│   ├── roles.yaml
+│   ├── secrets-describe.txt
+│   ├── secrets.yaml
+│   ├── services-describe.txt
+│   ├── services.yaml
+│   ├── statefulsets-describe.txt
+│   └── statefulsets.yaml
+├── mutatingwebhookconfigurations-describe.txt
+├── mutatingwebhookconfigurations.yaml
+├── namespaces
+│   ├── capi-kubeadm-bootstrap-system
+│   │   ├── describe-outputs
+│   │   │   ├── configmaps-describe.txt
+│   │   │   ├── cronjobs-describe.txt
+│   │   │   ├── daemonsets-describe.txt
+│   │   │   ├── deployments-describe.txt
+│   │   │   ├── endpoints-describe.txt
+│   │   │   ├── events-describe.txt
+│   │   │   ├── ingresses-describe.txt
+│   │   │   ├── jobs-describe.txt
+│   │   │   ├── networkpolicies-describe.txt
+│   │   │   ├── persistentvolumeclaims-describe.txt
+│   │   │   ├── poddisruptionbudgets-describe.txt
+│   │   │   ├── pods-describe.txt
+│   │   │   ├── replicasets-describe.txt
+│   │   │   ├── resourcequotas-describe.txt
+│   │   │   ├── rolebindings-describe.txt
+│   │   │   ├── roles-describe.txt
+│   │   │   ├── secrets-describe.txt
+│   │   │   ├── services-describe.txt
+│   │   │   └── statefulsets-describe.txt
+│   │   └── yaml-outputs
+│   │       ├── configmaps.yaml
+│   │       ├── cronjobs.yaml
+│   │       ├── daemonsets.yaml
+│   │       ├── deployments.yaml
+│   │       ├── endpoints.yaml
+│   │       ├── events.yaml
+│   │       ├── ingresses.yaml
+│   │       ├── jobs.yaml
+│   │       ├── networkpolicies.yaml
+│   │       ├── persistentvolumeclaims.yaml
+│   │       ├── poddisruptionbudgets.yaml
+│   │       ├── pods.yaml
+│   │       ├── replicasets.yaml
+│   │       ├── resourcequotas.yaml
+│   │       ├── rolebindings.yaml
+│   │       ├── roles.yaml
+│   │       ├── secrets.yaml
+│   │       ├── services.yaml
+│   │       └── statefulsets.yaml
+│   ├── capi-system
+│   │   ├── describe-outputs
+│   │   │   ├── configmaps-describe.txt
+│   │   │   ├── cronjobs-describe.txt
+│   │   │   ├── daemonsets-describe.txt
+│   │   │   ├── deployments-describe.txt
+│   │   │   ├── endpoints-describe.txt
+│   │   │   ├── events-describe.txt
+│   │   │   ├── ingresses-describe.txt
+│   │   │   ├── jobs-describe.txt
+│   │   │   ├── networkpolicies-describe.txt
+│   │   │   ├── persistentvolumeclaims-describe.txt
+│   │   │   ├── poddisruptionbudgets-describe.txt
+│   │   │   ├── pods-describe.txt
+│   │   │   ├── replicasets-describe.txt
+│   │   │   ├── resourcequotas-describe.txt
+│   │   │   ├── rolebindings-describe.txt
+│   │   │   ├── roles-describe.txt
+│   │   │   ├── secrets-describe.txt
+│   │   │   ├── services-describe.txt
+│   │   │   └── statefulsets-describe.txt
+│   │   └── yaml-outputs
+│   │       ├── configmaps.yaml
+│   │       ├── cronjobs.yaml
+│   │       ├── daemonsets.yaml
+│   │       ├── deployments.yaml
+│   │       ├── endpoints.yaml
+│   │       ├── events.yaml
+│   │       ├── ingresses.yaml
+│   │       ├── jobs.yaml
+│   │       ├── networkpolicies.yaml
+│   │       ├── persistentvolumeclaims.yaml
+│   │       ├── poddisruptionbudgets.yaml
+│   │       ├── pods.yaml
+│   │       ├── replicasets.yaml
+│   │       ├── resourcequotas.yaml
+│   │       ├── rolebindings.yaml
+│   │       ├── roles.yaml
+│   │       ├── secrets.yaml
+│   │       ├── services.yaml
+│   │       └── statefulsets.yaml
+│   ├── capo-system
+│   │   ├── describe-outputs
+│   │   │   ├── configmaps-describe.txt
+│   │   │   ├── cronjobs-describe.txt
+│   │   │   ├── daemonsets-describe.txt
+│   │   │   ├── deployments-describe.txt
+│   │   │   ├── endpoints-describe.txt
+│   │   │   ├── events-describe.txt
+│   │   │   ├── ingresses-describe.txt
+│   │   │   ├── jobs-describe.txt
+│   │   │   ├── networkpolicies-describe.txt
+│   │   │   ├── persistentvolumeclaims-describe.txt
+│   │   │   ├── poddisruptionbudgets-describe.txt
+│   │   │   ├── pods-describe.txt
+│   │   │   ├── replicasets-describe.txt
+│   │   │   ├── resourcequotas-describe.txt
+│   │   │   ├── rolebindings-describe.txt
+│   │   │   ├── roles-describe.txt
+│   │   │   ├── secrets-describe.txt
+│   │   │   ├── services-describe.txt
+│   │   │   └── statefulsets-describe.txt
+│   │   └── yaml-outputs
+│   │       ├── configmaps.yaml
+│   │       ├── cronjobs.yaml
+│   │       ├── daemonsets.yaml
+│   │       ├── deployments.yaml
+│   │       ├── endpoints.yaml
+│   │       ├── events.yaml
+│   │       ├── ingresses.yaml
+│   │       ├── jobs.yaml
+│   │       ├── networkpolicies.yaml
+│   │       ├── persistentvolumeclaims.yaml
+│   │       ├── poddisruptionbudgets.yaml
+│   │       ├── pods.yaml
+│   │       ├── replicasets.yaml
+│   │       ├── resourcequotas.yaml
+│   │       ├── rolebindings.yaml
+│   │       ├── roles.yaml
+│   │       ├── secrets.yaml
+│   │       ├── services.yaml
+│   │       └── statefulsets.yaml
+│   ├── cert-manager
+│   │   ├── describe-outputs
+│   │   │   ├── configmaps-describe.txt
+│   │   │   ├── cronjobs-describe.txt
+│   │   │   ├── daemonsets-describe.txt
+│   │   │   ├── deployments-describe.txt
+│   │   │   ├── endpoints-describe.txt
+│   │   │   ├── events-describe.txt
+│   │   │   ├── ingresses-describe.txt
+│   │   │   ├── jobs-describe.txt
+│   │   │   ├── networkpolicies-describe.txt
+│   │   │   ├── persistentvolumeclaims-describe.txt
+│   │   │   ├── poddisruptionbudgets-describe.txt
+│   │   │   ├── pods-describe.txt
+│   │   │   ├── replicasets-describe.txt
+│   │   │   ├── resourcequotas-describe.txt
+│   │   │   ├── rolebindings-describe.txt
+│   │   │   ├── roles-describe.txt
+│   │   │   ├── secrets-describe.txt
+│   │   │   ├── services-describe.txt
+│   │   │   └── statefulsets-describe.txt
+│   │   └── yaml-outputs
+│   │       ├── configmaps.yaml
+│   │       ├── cronjobs.yaml
+│   │       ├── daemonsets.yaml
+│   │       ├── deployments.yaml
+│   │       ├── endpoints.yaml
+│   │       ├── events.yaml
+│   │       ├── ingresses.yaml
+│   │       ├── jobs.yaml
+│   │       ├── networkpolicies.yaml
+│   │       ├── persistentvolumeclaims.yaml
+│   │       ├── poddisruptionbudgets.yaml
+│   │       ├── pods.yaml
+│   │       ├── replicasets.yaml
+│   │       ├── resourcequotas.yaml
+│   │       ├── rolebindings.yaml
+│   │       ├── roles.yaml
+│   │       ├── secrets.yaml
+│   │       ├── services.yaml
+│   │       └── statefulsets.yaml
+│   ├── default
+│   │   ├── describe-outputs
+│   │   │   ├── configmaps-describe.txt
+│   │   │   ├── cronjobs-describe.txt
+│   │   │   ├── daemonsets-describe.txt
+│   │   │   ├── deployments-describe.txt
+│   │   │   ├── endpoints-describe.txt
+│   │   │   ├── events-describe.txt
+│   │   │   ├── ingresses-describe.txt
+│   │   │   ├── jobs-describe.txt
+│   │   │   ├── networkpolicies-describe.txt
+│   │   │   ├── persistentvolumeclaims-describe.txt
+│   │   │   ├── poddisruptionbudgets-describe.txt
+│   │   │   ├── pods-describe.txt
+│   │   │   ├── replicasets-describe.txt
+│   │   │   ├── resourcequotas-describe.txt
+│   │   │   ├── rolebindings-describe.txt
+│   │   │   ├── roles-describe.txt
+│   │   │   ├── secrets-describe.txt
+│   │   │   ├── services-describe.txt
+│   │   │   └── statefulsets-describe.txt
+│   │   └── yaml-outputs
+│   │       ├── configmaps.yaml
+│   │       ├── cronjobs.yaml
+│   │       ├── daemonsets.yaml
+│   │       ├── deployments.yaml
+│   │       ├── endpoints.yaml
+│   │       ├── events.yaml
+│   │       ├── ingresses.yaml
+│   │       ├── jobs.yaml
+│   │       ├── networkpolicies.yaml
+│   │       ├── persistentvolumeclaims.yaml
+│   │       ├── poddisruptionbudgets.yaml
+│   │       ├── pods.yaml
+│   │       ├── replicasets.yaml
+│   │       ├── resourcequotas.yaml
+│   │       ├── rolebindings.yaml
+│   │       ├── roles.yaml
+│   │       ├── secrets.yaml
+│   │       ├── services.yaml
+│   │       └── statefulsets.yaml
+│   ├── hostpath-provisioner
+│   │   ├── describe-outputs
+│   │   │   ├── configmaps-describe.txt
+│   │   │   ├── cronjobs-describe.txt
+│   │   │   ├── daemonsets-describe.txt
+│   │   │   ├── deployments-describe.txt
+│   │   │   ├── endpoints-describe.txt
+│   │   │   ├── events-describe.txt
+│   │   │   ├── ingresses-describe.txt
+│   │   │   ├── jobs-describe.txt
+│   │   │   ├── networkpolicies-describe.txt
+│   │   │   ├── persistentvolumeclaims-describe.txt
+│   │   │   ├── poddisruptionbudgets-describe.txt
+│   │   │   ├── pods-describe.txt
+│   │   │   ├── replicasets-describe.txt
+│   │   │   ├── resourcequotas-describe.txt
+│   │   │   ├── rolebindings-describe.txt
+│   │   │   ├── roles-describe.txt
+│   │   │   ├── secrets-describe.txt
+│   │   │   ├── services-describe.txt
+│   │   │   └── statefulsets-describe.txt
+│   │   └── yaml-outputs
+│   │       ├── configmaps.yaml
+│   │       ├── cronjobs.yaml
+│   │       ├── daemonsets.yaml
+│   │       ├── deployments.yaml
+│   │       ├── endpoints.yaml
+│   │       ├── events.yaml
+│   │       ├── ingresses.yaml
+│   │       ├── jobs.yaml
+│   │       ├── networkpolicies.yaml
+│   │       ├── persistentvolumeclaims.yaml
+│   │       ├── poddisruptionbudgets.yaml
+│   │       ├── pods.yaml
+│   │       ├── replicasets.yaml
+│   │       ├── resourcequotas.yaml
+│   │       ├── rolebindings.yaml
+│   │       ├── roles.yaml
+│   │       ├── secrets.yaml
+│   │       ├── services.yaml
+│   │       └── statefulsets.yaml
+│   ├── k8sniff
+│   │   ├── describe-outputs
+│   │   │   ├── configmaps-describe.txt
+│   │   │   ├── cronjobs-describe.txt
+│   │   │   ├── daemonsets-describe.txt
+│   │   │   ├── deployments-describe.txt
+│   │   │   ├── endpoints-describe.txt
+│   │   │   ├── events-describe.txt
+│   │   │   ├── ingresses-describe.txt
+│   │   │   ├── jobs-describe.txt
+│   │   │   ├── networkpolicies-describe.txt
+│   │   │   ├── persistentvolumeclaims-describe.txt
+│   │   │   ├── poddisruptionbudgets-describe.txt
+│   │   │   ├── pods-describe.txt
+│   │   │   ├── replicasets-describe.txt
+│   │   │   ├── resourcequotas-describe.txt
+│   │   │   ├── rolebindings-describe.txt
+│   │   │   ├── roles-describe.txt
+│   │   │   ├── secrets-describe.txt
+│   │   │   ├── services-describe.txt
+│   │   │   └── statefulsets-describe.txt
+│   │   └── yaml-outputs
+│   │       ├── configmaps.yaml
+│   │       ├── cronjobs.yaml
+│   │       ├── daemonsets.yaml
+│   │       ├── deployments.yaml
+│   │       ├── endpoints.yaml
+│   │       ├── events.yaml
+│   │       ├── ingresses.yaml
+│   │       ├── jobs.yaml
+│   │       ├── networkpolicies.yaml
+│   │       ├── persistentvolumeclaims.yaml
+│   │       ├── poddisruptionbudgets.yaml
+│   │       ├── pods.yaml
+│   │       ├── replicasets.yaml
+│   │       ├── resourcequotas.yaml
+│   │       ├── rolebindings.yaml
+│   │       ├── roles.yaml
+│   │       ├── secrets.yaml
+│   │       ├── services.yaml
+│   │       └── statefulsets.yaml
+│   ├── kaapi
+│   │   ├── describe-outputs
+│   │   │   ├── configmaps-describe.txt
+│   │   │   ├── cronjobs-describe.txt
+│   │   │   ├── daemonsets-describe.txt
+│   │   │   ├── deployments-describe.txt
+│   │   │   ├── endpoints-describe.txt
+│   │   │   ├── events-describe.txt
+│   │   │   ├── ingresses-describe.txt
+│   │   │   ├── jobs-describe.txt
+│   │   │   ├── networkpolicies-describe.txt
+│   │   │   ├── persistentvolumeclaims-describe.txt
+│   │   │   ├── poddisruptionbudgets-describe.txt
+│   │   │   ├── pods-describe.txt
+│   │   │   ├── replicasets-describe.txt
+│   │   │   ├── resourcequotas-describe.txt
+│   │   │   ├── rolebindings-describe.txt
+│   │   │   ├── roles-describe.txt
+│   │   │   ├── secrets-describe.txt
+│   │   │   ├── services-describe.txt
+│   │   │   └── statefulsets-describe.txt
+│   │   └── yaml-outputs
+│   │       ├── configmaps.yaml
+│   │       ├── cronjobs.yaml
+│   │       ├── daemonsets.yaml
+│   │       ├── deployments.yaml
+│   │       ├── endpoints.yaml
+│   │       ├── events.yaml
+│   │       ├── ingresses.yaml
+│   │       ├── jobs.yaml
+│   │       ├── networkpolicies.yaml
+│   │       ├── persistentvolumeclaims.yaml
+│   │       ├── poddisruptionbudgets.yaml
+│   │       ├── pods.yaml
+│   │       ├── replicasets.yaml
+│   │       ├── resourcequotas.yaml
+│   │       ├── rolebindings.yaml
+│   │       ├── roles.yaml
+│   │       ├── secrets.yaml
+│   │       ├── services.yaml
+│   │       └── statefulsets.yaml
+│   ├── kube-node-lease
+│   │   ├── describe-outputs
+│   │   │   ├── configmaps-describe.txt
+│   │   │   ├── cronjobs-describe.txt
+│   │   │   ├── daemonsets-describe.txt
+│   │   │   ├── deployments-describe.txt
+│   │   │   ├── endpoints-describe.txt
+│   │   │   ├── events-describe.txt
+│   │   │   ├── ingresses-describe.txt
+│   │   │   ├── jobs-describe.txt
+│   │   │   ├── networkpolicies-describe.txt
+│   │   │   ├── persistentvolumeclaims-describe.txt
+│   │   │   ├── poddisruptionbudgets-describe.txt
+│   │   │   ├── pods-describe.txt
+│   │   │   ├── replicasets-describe.txt
+│   │   │   ├── resourcequotas-describe.txt
+│   │   │   ├── rolebindings-describe.txt
+│   │   │   ├── roles-describe.txt
+│   │   │   ├── secrets-describe.txt
+│   │   │   ├── services-describe.txt
+│   │   │   └── statefulsets-describe.txt
+│   │   └── yaml-outputs
+│   │       ├── configmaps.yaml
+│   │       ├── cronjobs.yaml
+│   │       ├── daemonsets.yaml
+│   │       ├── deployments.yaml
+│   │       ├── endpoints.yaml
+│   │       ├── events.yaml
+│   │       ├── ingresses.yaml
+│   │       ├── jobs.yaml
+│   │       ├── networkpolicies.yaml
+│   │       ├── persistentvolumeclaims.yaml
+│   │       ├── poddisruptionbudgets.yaml
+│   │       ├── pods.yaml
+│   │       ├── replicasets.yaml
+│   │       ├── resourcequotas.yaml
+│   │       ├── rolebindings.yaml
+│   │       ├── roles.yaml
+│   │       ├── secrets.yaml
+│   │       ├── services.yaml
+│   │       └── statefulsets.yaml
+│   ├── kube-public
+│   │   ├── describe-outputs
+│   │   │   ├── configmaps-describe.txt
+│   │   │   ├── cronjobs-describe.txt
+│   │   │   ├── daemonsets-describe.txt
+│   │   │   ├── deployments-describe.txt
+│   │   │   ├── endpoints-describe.txt
+│   │   │   ├── events-describe.txt
+│   │   │   ├── ingresses-describe.txt
+│   │   │   ├── jobs-describe.txt
+│   │   │   ├── networkpolicies-describe.txt
+│   │   │   ├── persistentvolumeclaims-describe.txt
+│   │   │   ├── poddisruptionbudgets-describe.txt
+│   │   │   ├── pods-describe.txt
+│   │   │   ├── replicasets-describe.txt
+│   │   │   ├── resourcequotas-describe.txt
+│   │   │   ├── rolebindings-describe.txt
+│   │   │   ├── roles-describe.txt
+│   │   │   ├── secrets-describe.txt
+│   │   │   ├── services-describe.txt
+│   │   │   └── statefulsets-describe.txt
+│   │   └── yaml-outputs
+│   │       ├── configmaps.yaml
+│   │       ├── cronjobs.yaml
+│   │       ├── daemonsets.yaml
+│   │       ├── deployments.yaml
+│   │       ├── endpoints.yaml
+│   │       ├── events.yaml
+│   │       ├── ingresses.yaml
+│   │       ├── jobs.yaml
+│   │       ├── networkpolicies.yaml
+│   │       ├── persistentvolumeclaims.yaml
+│   │       ├── poddisruptionbudgets.yaml
+│   │       ├── pods.yaml
+│   │       ├── replicasets.yaml
+│   │       ├── resourcequotas.yaml
+│   │       ├── rolebindings.yaml
+│   │       ├── roles.yaml
+│   │       ├── secrets.yaml
+│   │       ├── services.yaml
+│   │       └── statefulsets.yaml
+│   ├── kube-system
+│   │   ├── describe-outputs
+│   │   │   ├── configmaps-describe.txt
+│   │   │   ├── cronjobs-describe.txt
+│   │   │   ├── daemonsets-describe.txt
+│   │   │   ├── deployments-describe.txt
+│   │   │   ├── endpoints-describe.txt
+│   │   │   ├── events-describe.txt
+│   │   │   ├── ingresses-describe.txt
+│   │   │   ├── jobs-describe.txt
+│   │   │   ├── networkpolicies-describe.txt
+│   │   │   ├── persistentvolumeclaims-describe.txt
+│   │   │   ├── poddisruptionbudgets-describe.txt
+│   │   │   ├── pods-describe.txt
+│   │   │   ├── replicasets-describe.txt
+│   │   │   ├── resourcequotas-describe.txt
+│   │   │   ├── rolebindings-describe.txt
+│   │   │   ├── roles-describe.txt
+│   │   │   ├── secrets-describe.txt
+│   │   │   ├── services-describe.txt
+│   │   │   └── statefulsets-describe.txt
+│   │   └── yaml-outputs
+│   │       ├── configmaps.yaml
+│   │       ├── cronjobs.yaml
+│   │       ├── daemonsets.yaml
+│   │       ├── deployments.yaml
+│   │       ├── endpoints.yaml
+│   │       ├── events.yaml
+│   │       ├── ingresses.yaml
+│   │       ├── jobs.yaml
+│   │       ├── networkpolicies.yaml
+│   │       ├── persistentvolumeclaims.yaml
+│   │       ├── poddisruptionbudgets.yaml
+│   │       ├── pods.yaml
+│   │       ├── replicasets.yaml
+│   │       ├── resourcequotas.yaml
+│   │       ├── rolebindings.yaml
+│   │       ├── roles.yaml
+│   │       ├── secrets.yaml
+│   │       ├── services.yaml
+│   │       └── statefulsets.yaml
+│   ├── kubernetes-replicator
+│   │   ├── describe-outputs
+│   │   │   ├── configmaps-describe.txt
+│   │   │   ├── cronjobs-describe.txt
+│   │   │   ├── daemonsets-describe.txt
+│   │   │   ├── deployments-describe.txt
+│   │   │   ├── endpoints-describe.txt
+│   │   │   ├── events-describe.txt
+│   │   │   ├── ingresses-describe.txt
+│   │   │   ├── jobs-describe.txt
+│   │   │   ├── networkpolicies-describe.txt
+│   │   │   ├── persistentvolumeclaims-describe.txt
+│   │   │   ├── poddisruptionbudgets-describe.txt
+│   │   │   ├── pods-describe.txt
+│   │   │   ├── replicasets-describe.txt
+│   │   │   ├── resourcequotas-describe.txt
+│   │   │   ├── rolebindings-describe.txt
+│   │   │   ├── roles-describe.txt
+│   │   │   ├── secrets-describe.txt
+│   │   │   ├── services-describe.txt
+│   │   │   └── statefulsets-describe.txt
+│   │   └── yaml-outputs
+│   │       ├── configmaps.yaml
+│   │       ├── cronjobs.yaml
+│   │       ├── daemonsets.yaml
+│   │       ├── deployments.yaml
+│   │       ├── endpoints.yaml
+│   │       ├── events.yaml
+│   │       ├── ingresses.yaml
+│   │       ├── jobs.yaml
+│   │       ├── networkpolicies.yaml
+│   │       ├── persistentvolumeclaims.yaml
+│   │       ├── poddisruptionbudgets.yaml
+│   │       ├── pods.yaml
+│   │       ├── replicasets.yaml
+│   │       ├── resourcequotas.yaml
+│   │       ├── rolebindings.yaml
+│   │       ├── roles.yaml
+│   │       ├── secrets.yaml
+│   │       ├── services.yaml
+│   │       └── statefulsets.yaml
+│   ├── kubeview
+│   │   ├── describe-outputs
+│   │   │   ├── configmaps-describe.txt
+│   │   │   ├── cronjobs-describe.txt
+│   │   │   ├── daemonsets-describe.txt
+│   │   │   ├── deployments-describe.txt
+│   │   │   ├── endpoints-describe.txt
+│   │   │   ├── events-describe.txt
+│   │   │   ├── ingresses-describe.txt
+│   │   │   ├── jobs-describe.txt
+│   │   │   ├── networkpolicies-describe.txt
+│   │   │   ├── persistentvolumeclaims-describe.txt
+│   │   │   ├── poddisruptionbudgets-describe.txt
+│   │   │   ├── pods-describe.txt
+│   │   │   ├── replicasets-describe.txt
+│   │   │   ├── resourcequotas-describe.txt
+│   │   │   ├── rolebindings-describe.txt
+│   │   │   ├── roles-describe.txt
+│   │   │   ├── secrets-describe.txt
+│   │   │   ├── services-describe.txt
+│   │   │   └── statefulsets-describe.txt
+│   │   └── yaml-outputs
+│   │       ├── configmaps.yaml
+│   │       ├── cronjobs.yaml
+│   │       ├── daemonsets.yaml
+│   │       ├── deployments.yaml
+│   │       ├── endpoints.yaml
+│   │       ├── events.yaml
+│   │       ├── ingresses.yaml
+│   │       ├── jobs.yaml
+│   │       ├── networkpolicies.yaml
+│   │       ├── persistentvolumeclaims.yaml
+│   │       ├── poddisruptionbudgets.yaml
+│   │       ├── pods.yaml
+│   │       ├── replicasets.yaml
+│   │       ├── resourcequotas.yaml
+│   │       ├── rolebindings.yaml
+│   │       ├── roles.yaml
+│   │       ├── secrets.yaml
+│   │       ├── services.yaml
+│   │       └── statefulsets.yaml
+│   ├── kubevious
+│   │   ├── describe-outputs
+│   │   │   ├── configmaps-describe.txt
+│   │   │   ├── cronjobs-describe.txt
+│   │   │   ├── daemonsets-describe.txt
+│   │   │   ├── deployments-describe.txt
+│   │   │   ├── endpoints-describe.txt
+│   │   │   ├── events-describe.txt
+│   │   │   ├── ingresses-describe.txt
+│   │   │   ├── jobs-describe.txt
+│   │   │   ├── networkpolicies-describe.txt
+│   │   │   ├── persistentvolumeclaims-describe.txt
+│   │   │   ├── poddisruptionbudgets-describe.txt
+│   │   │   ├── pods-describe.txt
+│   │   │   ├── replicasets-describe.txt
+│   │   │   ├── resourcequotas-describe.txt
+│   │   │   ├── rolebindings-describe.txt
+│   │   │   ├── roles-describe.txt
+│   │   │   ├── secrets-describe.txt
+│   │   │   ├── services-describe.txt
+│   │   │   └── statefulsets-describe.txt
+│   │   └── yaml-outputs
+│   │       ├── configmaps.yaml
+│   │       ├── cronjobs.yaml
+│   │       ├── daemonsets.yaml
+│   │       ├── deployments.yaml
+│   │       ├── endpoints.yaml
+│   │       ├── events.yaml
+│   │       ├── ingresses.yaml
+│   │       ├── jobs.yaml
+│   │       ├── networkpolicies.yaml
+│   │       ├── persistentvolumeclaims.yaml
+│   │       ├── poddisruptionbudgets.yaml
+│   │       ├── pods.yaml
+│   │       ├── replicasets.yaml
+│   │       ├── resourcequotas.yaml
+│   │       ├── rolebindings.yaml
+│   │       ├── roles.yaml
+│   │       ├── secrets.yaml
+│   │       ├── services.yaml
+│   │       └── statefulsets.yaml
+│   ├── logging
+│   │   ├── describe-outputs
+│   │   │   ├── configmaps-describe.txt
+│   │   │   ├── cronjobs-describe.txt
+│   │   │   ├── daemonsets-describe.txt
+│   │   │   ├── deployments-describe.txt
+│   │   │   ├── endpoints-describe.txt
+│   │   │   ├── events-describe.txt
+│   │   │   ├── ingresses-describe.txt
+│   │   │   ├── jobs-describe.txt
+│   │   │   ├── networkpolicies-describe.txt
+│   │   │   ├── persistentvolumeclaims-describe.txt
+│   │   │   ├── poddisruptionbudgets-describe.txt
+│   │   │   ├── pods-describe.txt
+│   │   │   ├── replicasets-describe.txt
+│   │   │   ├── resourcequotas-describe.txt
+│   │   │   ├── rolebindings-describe.txt
+│   │   │   ├── roles-describe.txt
+│   │   │   ├── secrets-describe.txt
+│   │   │   ├── services-describe.txt
+│   │   │   └── statefulsets-describe.txt
+│   │   └── yaml-outputs
+│   │       ├── configmaps.yaml
+│   │       ├── cronjobs.yaml
+│   │       ├── daemonsets.yaml
+│   │       ├── deployments.yaml
+│   │       ├── endpoints.yaml
+│   │       ├── events.yaml
+│   │       ├── ingresses.yaml
+│   │       ├── jobs.yaml
+│   │       ├── networkpolicies.yaml
+│   │       ├── persistentvolumeclaims.yaml
+│   │       ├── poddisruptionbudgets.yaml
+│   │       ├── pods.yaml
+│   │       ├── replicasets.yaml
+│   │       ├── resourcequotas.yaml
+│   │       ├── rolebindings.yaml
+│   │       ├── roles.yaml
+│   │       ├── secrets.yaml
+│   │       ├── services.yaml
+│   │       └── statefulsets.yaml
+│   ├── metallb-system
+│   │   ├── describe-outputs
+│   │   │   ├── configmaps-describe.txt
+│   │   │   ├── cronjobs-describe.txt
+│   │   │   ├── daemonsets-describe.txt
+│   │   │   ├── deployments-describe.txt
+│   │   │   ├── endpoints-describe.txt
+│   │   │   ├── events-describe.txt
+│   │   │   ├── ingresses-describe.txt
+│   │   │   ├── jobs-describe.txt
+│   │   │   ├── networkpolicies-describe.txt
+│   │   │   ├── persistentvolumeclaims-describe.txt
+│   │   │   ├── poddisruptionbudgets-describe.txt
+│   │   │   ├── pods-describe.txt
+│   │   │   ├── replicasets-describe.txt
+│   │   │   ├── resourcequotas-describe.txt
+│   │   │   ├── rolebindings-describe.txt
+│   │   │   ├── roles-describe.txt
+│   │   │   ├── secrets-describe.txt
+│   │   │   ├── services-describe.txt
+│   │   │   └── statefulsets-describe.txt
+│   │   └── yaml-outputs
+│   │       ├── configmaps.yaml
+│   │       ├── cronjobs.yaml
+│   │       ├── daemonsets.yaml
+│   │       ├── deployments.yaml
+│   │       ├── endpoints.yaml
+│   │       ├── events.yaml
+│   │       ├── ingresses.yaml
+│   │       ├── jobs.yaml
+│   │       ├── networkpolicies.yaml
+│   │       ├── persistentvolumeclaims.yaml
+│   │       ├── poddisruptionbudgets.yaml
+│   │       ├── pods.yaml
+│   │       ├── replicasets.yaml
+│   │       ├── resourcequotas.yaml
+│   │       ├── rolebindings.yaml
+│   │       ├── roles.yaml
+│   │       ├── secrets.yaml
+│   │       ├── services.yaml
+│   │       └── statefulsets.yaml
+│   ├── mgmt
+│   │   ├── describe-outputs
+│   │   │   ├── configmaps-describe.txt
+│   │   │   ├── cronjobs-describe.txt
+│   │   │   ├── daemonsets-describe.txt
+│   │   │   ├── deployments-describe.txt
+│   │   │   ├── endpoints-describe.txt
+│   │   │   ├── events-describe.txt
+│   │   │   ├── ingresses-describe.txt
+│   │   │   ├── jobs-describe.txt
+│   │   │   ├── networkpolicies-describe.txt
+│   │   │   ├── persistentvolumeclaims-describe.txt
+│   │   │   ├── poddisruptionbudgets-describe.txt
+│   │   │   ├── pods-describe.txt
+│   │   │   ├── replicasets-describe.txt
+│   │   │   ├── resourcequotas-describe.txt
+│   │   │   ├── rolebindings-describe.txt
+│   │   │   ├── roles-describe.txt
+│   │   │   ├── secrets-describe.txt
+│   │   │   ├── services-describe.txt
+│   │   │   └── statefulsets-describe.txt
+│   │   └── yaml-outputs
+│   │       ├── configmaps.yaml
+│   │       ├── cronjobs.yaml
+│   │       ├── daemonsets.yaml
+│   │       ├── deployments.yaml
+│   │       ├── endpoints.yaml
+│   │       ├── events.yaml
+│   │       ├── ingresses.yaml
+│   │       ├── jobs.yaml
+│   │       ├── networkpolicies.yaml
+│   │       ├── persistentvolumeclaims.yaml
+│   │       ├── poddisruptionbudgets.yaml
+│   │       ├── pods.yaml
+│   │       ├── replicasets.yaml
+│   │       ├── resourcequotas.yaml
+│   │       ├── rolebindings.yaml
+│   │       ├── roles.yaml
+│   │       ├── secrets.yaml
+│   │       ├── services.yaml
+│   │       └── statefulsets.yaml
+│   ├── minio
+│   │   ├── describe-outputs
+│   │   │   ├── configmaps-describe.txt
+│   │   │   ├── cronjobs-describe.txt
+│   │   │   ├── daemonsets-describe.txt
+│   │   │   ├── deployments-describe.txt
+│   │   │   ├── endpoints-describe.txt
+│   │   │   ├── events-describe.txt
+│   │   │   ├── ingresses-describe.txt
+│   │   │   ├── jobs-describe.txt
+│   │   │   ├── networkpolicies-describe.txt
+│   │   │   ├── persistentvolumeclaims-describe.txt
+│   │   │   ├── poddisruptionbudgets-describe.txt
+│   │   │   ├── pods-describe.txt
+│   │   │   ├── replicasets-describe.txt
+│   │   │   ├── resourcequotas-describe.txt
+│   │   │   ├── rolebindings-describe.txt
+│   │   │   ├── roles-describe.txt
+│   │   │   ├── secrets-describe.txt
+│   │   │   ├── services-describe.txt
+│   │   │   └── statefulsets-describe.txt
+│   │   └── yaml-outputs
+│   │       ├── configmaps.yaml
+│   │       ├── cronjobs.yaml
+│   │       ├── daemonsets.yaml
+│   │       ├── deployments.yaml
+│   │       ├── endpoints.yaml
+│   │       ├── events.yaml
+│   │       ├── ingresses.yaml
+│   │       ├── jobs.yaml
+│   │       ├── networkpolicies.yaml
+│   │       ├── persistentvolumeclaims.yaml
+│   │       ├── poddisruptionbudgets.yaml
+│   │       ├── pods.yaml
+│   │       ├── replicasets.yaml
+│   │       ├── resourcequotas.yaml
+│   │       ├── rolebindings.yaml
+│   │       ├── roles.yaml
+│   │       ├── secrets.yaml
+│   │       ├── services.yaml
+│   │       └── statefulsets.yaml
+│   ├── monitoring
+│   │   ├── describe-outputs
+│   │   │   ├── configmaps-describe.txt
+│   │   │   ├── cronjobs-describe.txt
+│   │   │   ├── daemonsets-describe.txt
+│   │   │   ├── deployments-describe.txt
+│   │   │   ├── endpoints-describe.txt
+│   │   │   ├── events-describe.txt
+│   │   │   ├── ingresses-describe.txt
+│   │   │   ├── jobs-describe.txt
+│   │   │   ├── networkpolicies-describe.txt
+│   │   │   ├── persistentvolumeclaims-describe.txt
+│   │   │   ├── poddisruptionbudgets-describe.txt
+│   │   │   ├── pods-describe.txt
+│   │   │   ├── replicasets-describe.txt
+│   │   │   ├── resourcequotas-describe.txt
+│   │   │   ├── rolebindings-describe.txt
+│   │   │   ├── roles-describe.txt
+│   │   │   ├── secrets-describe.txt
+│   │   │   ├── services-describe.txt
+│   │   │   └── statefulsets-describe.txt
+│   │   └── yaml-outputs
+│   │       ├── configmaps.yaml
+│   │       ├── cronjobs.yaml
+│   │       ├── daemonsets.yaml
+│   │       ├── deployments.yaml
+│   │       ├── endpoints.yaml
+│   │       ├── events.yaml
+│   │       ├── ingresses.yaml
+│   │       ├── jobs.yaml
+│   │       ├── networkpolicies.yaml
+│   │       ├── persistentvolumeclaims.yaml
+│   │       ├── poddisruptionbudgets.yaml
+│   │       ├── pods.yaml
+│   │       ├── replicasets.yaml
+│   │       ├── resourcequotas.yaml
+│   │       ├── rolebindings.yaml
+│   │       ├── roles.yaml
+│   │       ├── secrets.yaml
+│   │       ├── services.yaml
+│   │       └── statefulsets.yaml
+│   ├── percona
+│   │   ├── describe-outputs
+│   │   │   ├── configmaps-describe.txt
+│   │   │   ├── cronjobs-describe.txt
+│   │   │   ├── daemonsets-describe.txt
+│   │   │   ├── deployments-describe.txt
+│   │   │   ├── endpoints-describe.txt
+│   │   │   ├── events-describe.txt
+│   │   │   ├── ingresses-describe.txt
+│   │   │   ├── jobs-describe.txt
+│   │   │   ├── networkpolicies-describe.txt
+│   │   │   ├── persistentvolumeclaims-describe.txt
+│   │   │   ├── poddisruptionbudgets-describe.txt
+│   │   │   ├── pods-describe.txt
+│   │   │   ├── replicasets-describe.txt
+│   │   │   ├── resourcequotas-describe.txt
+│   │   │   ├── rolebindings-describe.txt
+│   │   │   ├── roles-describe.txt
+│   │   │   ├── secrets-describe.txt
+│   │   │   ├── services-describe.txt
+│   │   │   └── statefulsets-describe.txt
+│   │   └── yaml-outputs
+│   │       ├── configmaps.yaml
+│   │       ├── cronjobs.yaml
+│   │       ├── daemonsets.yaml
+│   │       ├── deployments.yaml
+│   │       ├── endpoints.yaml
+│   │       ├── events.yaml
+│   │       ├── ingresses.yaml
+│   │       ├── jobs.yaml
+│   │       ├── networkpolicies.yaml
+│   │       ├── persistentvolumeclaims.yaml
+│   │       ├── poddisruptionbudgets.yaml
+│   │       ├── pods.yaml
+│   │       ├── replicasets.yaml
+│   │       ├── resourcequotas.yaml
+│   │       ├── rolebindings.yaml
+│   │       ├── roles.yaml
+│   │       ├── secrets.yaml
+│   │       ├── services.yaml
+│   │       └── statefulsets.yaml
+│   ├── pf9-system
+│   │   ├── describe-outputs
+│   │   │   ├── configmaps-describe.txt
+│   │   │   ├── cronjobs-describe.txt
+│   │   │   ├── daemonsets-describe.txt
+│   │   │   ├── deployments-describe.txt
+│   │   │   ├── endpoints-describe.txt
+│   │   │   ├── events-describe.txt
+│   │   │   ├── ingresses-describe.txt
+│   │   │   ├── jobs-describe.txt
+│   │   │   ├── networkpolicies-describe.txt
+│   │   │   ├── persistentvolumeclaims-describe.txt
+│   │   │   ├── poddisruptionbudgets-describe.txt
+│   │   │   ├── pods-describe.txt
+│   │   │   ├── replicasets-describe.txt
+│   │   │   ├── resourcequotas-describe.txt
+│   │   │   ├── rolebindings-describe.txt
+│   │   │   ├── roles-describe.txt
+│   │   │   ├── secrets-describe.txt
+│   │   │   ├── services-describe.txt
+│   │   │   └── statefulsets-describe.txt
+│   │   └── yaml-outputs
+│   │       ├── configmaps.yaml
+│   │       ├── cronjobs.yaml
+│   │       ├── daemonsets.yaml
+│   │       ├── deployments.yaml
+│   │       ├── endpoints.yaml
+│   │       ├── events.yaml
+│   │       ├── ingresses.yaml
+│   │       ├── jobs.yaml
+│   │       ├── networkpolicies.yaml
+│   │       ├── persistentvolumeclaims.yaml
+│   │       ├── poddisruptionbudgets.yaml
+│   │       ├── pods.yaml
+│   │       ├── replicasets.yaml
+│   │       ├── resourcequotas.yaml
+│   │       ├── rolebindings.yaml
+│   │       ├── roles.yaml
+│   │       ├── secrets.yaml
+│   │       ├── services.yaml
+│   │       └── statefulsets.yaml
+│   ├── pf9-utils
+│   │   ├── describe-outputs
+│   │   │   ├── configmaps-describe.txt
+│   │   │   ├── cronjobs-describe.txt
+│   │   │   ├── daemonsets-describe.txt
+│   │   │   ├── deployments-describe.txt
+│   │   │   ├── endpoints-describe.txt
+│   │   │   ├── events-describe.txt
+│   │   │   ├── ingresses-describe.txt
+│   │   │   ├── jobs-describe.txt
+│   │   │   ├── networkpolicies-describe.txt
+│   │   │   ├── persistentvolumeclaims-describe.txt
+│   │   │   ├── poddisruptionbudgets-describe.txt
+│   │   │   ├── pods-describe.txt
+│   │   │   ├── replicasets-describe.txt
+│   │   │   ├── resourcequotas-describe.txt
+│   │   │   ├── rolebindings-describe.txt
+│   │   │   ├── roles-describe.txt
+│   │   │   ├── secrets-describe.txt
+│   │   │   ├── services-describe.txt
+│   │   │   └── statefulsets-describe.txt
+│   │   └── yaml-outputs
+│   │       ├── configmaps.yaml
+│   │       ├── cronjobs.yaml
+│   │       ├── daemonsets.yaml
+│   │       ├── deployments.yaml
+│   │       ├── endpoints.yaml
+│   │       ├── events.yaml
+│   │       ├── ingresses.yaml
+│   │       ├── jobs.yaml
+│   │       ├── networkpolicies.yaml
+│   │       ├── persistentvolumeclaims.yaml
+│   │       ├── poddisruptionbudgets.yaml
+│   │       ├── pods.yaml
+│   │       ├── replicasets.yaml
+│   │       ├── resourcequotas.yaml
+│   │       ├── rolebindings.yaml
+│   │       ├── roles.yaml
+│   │       ├── secrets.yaml
+│   │       ├── services.yaml
+│   │       └── statefulsets.yaml
+│   ├── projectsveltos
+│   │   ├── describe-outputs
+│   │   │   ├── configmaps-describe.txt
+│   │   │   ├── cronjobs-describe.txt
+│   │   │   ├── daemonsets-describe.txt
+│   │   │   ├── deployments-describe.txt
+│   │   │   ├── endpoints-describe.txt
+│   │   │   ├── events-describe.txt
+│   │   │   ├── ingresses-describe.txt
+│   │   │   ├── jobs-describe.txt
+│   │   │   ├── networkpolicies-describe.txt
+│   │   │   ├── persistentvolumeclaims-describe.txt
+│   │   │   ├── poddisruptionbudgets-describe.txt
+│   │   │   ├── pods-describe.txt
+│   │   │   ├── replicasets-describe.txt
+│   │   │   ├── resourcequotas-describe.txt
+│   │   │   ├── rolebindings-describe.txt
+│   │   │   ├── roles-describe.txt
+│   │   │   ├── secrets-describe.txt
+│   │   │   ├── services-describe.txt
+│   │   │   └── statefulsets-describe.txt
+│   │   └── yaml-outputs
+│   │       ├── configmaps.yaml
+│   │       ├── cronjobs.yaml
+│   │       ├── daemonsets.yaml
+│   │       ├── deployments.yaml
+│   │       ├── endpoints.yaml
+│   │       ├── events.yaml
+│   │       ├── ingresses.yaml
+│   │       ├── jobs.yaml
+│   │       ├── networkpolicies.yaml
+│   │       ├── persistentvolumeclaims.yaml
+│   │       ├── poddisruptionbudgets.yaml
+│   │       ├── pods.yaml
+│   │       ├── replicasets.yaml
+│   │       ├── resourcequotas.yaml
+│   │       ├── rolebindings.yaml
+│   │       ├── roles.yaml
+│   │       ├── secrets.yaml
+│   │       ├── services.yaml
+│   │       └── statefulsets.yaml
+│   ├── support-onprem
+│   │   ├── describe-outputs
+│   │   │   ├── configmaps-describe.txt
+│   │   │   ├── cronjobs-describe.txt
+│   │   │   ├── daemonsets-describe.txt
+│   │   │   ├── deployments-describe.txt
+│   │   │   ├── endpoints-describe.txt
+│   │   │   ├── events-describe.txt
+│   │   │   ├── ingresses-describe.txt
+│   │   │   ├── jobs-describe.txt
+│   │   │   ├── networkpolicies-describe.txt
+│   │   │   ├── persistentvolumeclaims-describe.txt
+│   │   │   ├── poddisruptionbudgets-describe.txt
+│   │   │   ├── pods-describe.txt
+│   │   │   ├── replicasets-describe.txt
+│   │   │   ├── resourcequotas-describe.txt
+│   │   │   ├── rolebindings-describe.txt
+│   │   │   ├── roles-describe.txt
+│   │   │   ├── secrets-describe.txt
+│   │   │   ├── services-describe.txt
+│   │   │   └── statefulsets-describe.txt
+│   │   └── yaml-outputs
+│   │       ├── configmaps.yaml
+│   │       ├── cronjobs.yaml
+│   │       ├── daemonsets.yaml
+│   │       ├── deployments.yaml
+│   │       ├── endpoints.yaml
+│   │       ├── events.yaml
+│   │       ├── ingresses.yaml
+│   │       ├── jobs.yaml
+│   │       ├── networkpolicies.yaml
+│   │       ├── persistentvolumeclaims.yaml
+│   │       ├── poddisruptionbudgets.yaml
+│   │       ├── pods.yaml
+│   │       ├── replicasets.yaml
+│   │       ├── resourcequotas.yaml
+│   │       ├── rolebindings.yaml
+│   │       ├── roles.yaml
+│   │       ├── secrets.yaml
+│   │       ├── services.yaml
+│   │       └── statefulsets.yaml
+│   ├── support-onprem-default-admin
+│   │   ├── describe-outputs
+│   │   │   ├── configmaps-describe.txt
+│   │   │   ├── cronjobs-describe.txt
+│   │   │   ├── daemonsets-describe.txt
+│   │   │   ├── deployments-describe.txt
+│   │   │   ├── endpoints-describe.txt
+│   │   │   ├── events-describe.txt
+│   │   │   ├── ingresses-describe.txt
+│   │   │   ├── jobs-describe.txt
+│   │   │   ├── networkpolicies-describe.txt
+│   │   │   ├── persistentvolumeclaims-describe.txt
+│   │   │   ├── poddisruptionbudgets-describe.txt
+│   │   │   ├── pods-describe.txt
+│   │   │   ├── replicasets-describe.txt
+│   │   │   ├── resourcequotas-describe.txt
+│   │   │   ├── rolebindings-describe.txt
+│   │   │   ├── roles-describe.txt
+│   │   │   ├── secrets-describe.txt
+│   │   │   ├── services-describe.txt
+│   │   │   └── statefulsets-describe.txt
+│   │   └── yaml-outputs
+│   │       ├── configmaps.yaml
+│   │       ├── cronjobs.yaml
+│   │       ├── daemonsets.yaml
+│   │       ├── deployments.yaml
+│   │       ├── endpoints.yaml
+│   │       ├── events.yaml
+│   │       ├── ingresses.yaml
+│   │       ├── jobs.yaml
+│   │       ├── networkpolicies.yaml
+│   │       ├── persistentvolumeclaims.yaml
+│   │       ├── poddisruptionbudgets.yaml
+│   │       ├── pods.yaml
+│   │       ├── replicasets.yaml
+│   │       ├── resourcequotas.yaml
+│   │       ├── rolebindings.yaml
+│   │       ├── roles.yaml
+│   │       ├── secrets.yaml
+│   │       ├── services.yaml
+│   │       └── statefulsets.yaml
+│   ├── support-onprem-default-service
+│   │   ├── describe-outputs
+│   │   │   ├── configmaps-describe.txt
+│   │   │   ├── cronjobs-describe.txt
+│   │   │   ├── daemonsets-describe.txt
+│   │   │   ├── deployments-describe.txt
+│   │   │   ├── endpoints-describe.txt
+│   │   │   ├── events-describe.txt
+│   │   │   ├── ingresses-describe.txt
+│   │   │   ├── jobs-describe.txt
+│   │   │   ├── networkpolicies-describe.txt
+│   │   │   ├── persistentvolumeclaims-describe.txt
+│   │   │   ├── poddisruptionbudgets-describe.txt
+│   │   │   ├── pods-describe.txt
+│   │   │   ├── replicasets-describe.txt
+│   │   │   ├── resourcequotas-describe.txt
+│   │   │   ├── rolebindings-describe.txt
+│   │   │   ├── roles-describe.txt
+│   │   │   ├── secrets-describe.txt
+│   │   │   ├── services-describe.txt
+│   │   │   └── statefulsets-describe.txt
+│   │   └── yaml-outputs
+│   │       ├── configmaps.yaml
+│   │       ├── cronjobs.yaml
+│   │       ├── daemonsets.yaml
+│   │       ├── deployments.yaml
+│   │       ├── endpoints.yaml
+│   │       ├── events.yaml
+│   │       ├── ingresses.yaml
+│   │       ├── jobs.yaml
+│   │       ├── networkpolicies.yaml
+│   │       ├── persistentvolumeclaims.yaml
+│   │       ├── poddisruptionbudgets.yaml
+│   │       ├── pods.yaml
+│   │       ├── replicasets.yaml
+│   │       ├── resourcequotas.yaml
+│   │       ├── rolebindings.yaml
+│   │       ├── roles.yaml
+│   │       ├── secrets.yaml
+│   │       ├── services.yaml
+│   │       └── statefulsets.yaml
+│   ├── support-onprem-default-services
+│   │   ├── describe-outputs
+│   │   │   ├── configmaps-describe.txt
+│   │   │   ├── cronjobs-describe.txt
+│   │   │   ├── daemonsets-describe.txt
+│   │   │   ├── deployments-describe.txt
+│   │   │   ├── endpoints-describe.txt
+│   │   │   ├── events-describe.txt
+│   │   │   ├── ingresses-describe.txt
+│   │   │   ├── jobs-describe.txt
+│   │   │   ├── networkpolicies-describe.txt
+│   │   │   ├── persistentvolumeclaims-describe.txt
+│   │   │   ├── poddisruptionbudgets-describe.txt
+│   │   │   ├── pods-describe.txt
+│   │   │   ├── replicasets-describe.txt
+│   │   │   ├── resourcequotas-describe.txt
+│   │   │   ├── rolebindings-describe.txt
+│   │   │   ├── roles-describe.txt
+│   │   │   ├── secrets-describe.txt
+│   │   │   ├── services-describe.txt
+│   │   │   └── statefulsets-describe.txt
+│   │   └── yaml-outputs
+│   │       ├── configmaps.yaml
+│   │       ├── cronjobs.yaml
+│   │       ├── daemonsets.yaml
+│   │       ├── deployments.yaml
+│   │       ├── endpoints.yaml
+│   │       ├── events.yaml
+│   │       ├── ingresses.yaml
+│   │       ├── jobs.yaml
+│   │       ├── networkpolicies.yaml
+│   │       ├── persistentvolumeclaims.yaml
+│   │       ├── poddisruptionbudgets.yaml
+│   │       ├── pods.yaml
+│   │       ├── replicasets.yaml
+│   │       ├── resourcequotas.yaml
+│   │       ├── rolebindings.yaml
+│   │       ├── roles.yaml
+│   │       ├── secrets.yaml
+│   │       ├── services.yaml
+│   │       └── statefulsets.yaml
+│   ├── support-onprem-kplane
+│   │   ├── describe-outputs
+│   │   │   ├── configmaps-describe.txt
+│   │   │   ├── cronjobs-describe.txt
+│   │   │   ├── daemonsets-describe.txt
+│   │   │   ├── deployments-describe.txt
+│   │   │   ├── endpoints-describe.txt
+│   │   │   ├── events-describe.txt
+│   │   │   ├── ingresses-describe.txt
+│   │   │   ├── jobs-describe.txt
+│   │   │   ├── networkpolicies-describe.txt
+│   │   │   ├── persistentvolumeclaims-describe.txt
+│   │   │   ├── poddisruptionbudgets-describe.txt
+│   │   │   ├── pods-describe.txt
+│   │   │   ├── replicasets-describe.txt
+│   │   │   ├── resourcequotas-describe.txt
+│   │   │   ├── rolebindings-describe.txt
+│   │   │   ├── roles-describe.txt
+│   │   │   ├── secrets-describe.txt
+│   │   │   ├── services-describe.txt
+│   │   │   └── statefulsets-describe.txt
+│   │   └── yaml-outputs
+│   │       ├── configmaps.yaml
+│   │       ├── cronjobs.yaml
+│   │       ├── daemonsets.yaml
+│   │       ├── deployments.yaml
+│   │       ├── endpoints.yaml
+│   │       ├── events.yaml
+│   │       ├── ingresses.yaml
+│   │       ├── jobs.yaml
+│   │       ├── networkpolicies.yaml
+│   │       ├── persistentvolumeclaims.yaml
+│   │       ├── poddisruptionbudgets.yaml
+│   │       ├── pods.yaml
+│   │       ├── replicasets.yaml
+│   │       ├── resourcequotas.yaml
+│   │       ├── rolebindings.yaml
+│   │       ├── roles.yaml
+│   │       ├── secrets.yaml
+│   │       ├── services.yaml
+│   │       └── statefulsets.yaml
+│   └── support-onprem-region1
+│       ├── describe-outputs
+│       │   ├── configmaps-describe.txt
+│       │   ├── cronjobs-describe.txt
+│       │   ├── daemonsets-describe.txt
+│       │   ├── deployments-describe.txt
+│       │   ├── endpoints-describe.txt
+│       │   ├── events-describe.txt
+│       │   ├── ingresses-describe.txt
+│       │   ├── jobs-describe.txt
+│       │   ├── networkpolicies-describe.txt
+│       │   ├── persistentvolumeclaims-describe.txt
+│       │   ├── poddisruptionbudgets-describe.txt
+│       │   ├── pods-describe.txt
+│       │   ├── replicasets-describe.txt
+│       │   ├── resourcequotas-describe.txt
+│       │   ├── rolebindings-describe.txt
+│       │   ├── roles-describe.txt
+│       │   ├── secrets-describe.txt
+│       │   ├── services-describe.txt
+│       │   └── statefulsets-describe.txt
+│       └── yaml-outputs
+│           ├── configmaps.yaml
+│           ├── cronjobs.yaml
+│           ├── daemonsets.yaml
+│           ├── deployments.yaml
+│           ├── endpoints.yaml
+│           ├── events.yaml
+│           ├── ingresses.yaml
+│           ├── jobs.yaml
+│           ├── networkpolicies.yaml
+│           ├── persistentvolumeclaims.yaml
+│           ├── poddisruptionbudgets.yaml
+│           ├── pods.yaml
+│           ├── replicasets.yaml
+│           ├── resourcequotas.yaml
+│           ├── rolebindings.yaml
+│           ├── roles.yaml
+│           ├── secrets.yaml
+│           ├── services.yaml
+│           └── statefulsets.yaml
+├── nodes-describe.txt
+├── nodes.yaml
+├── percona
+│   ├── configmaps-describe.txt
+│   ├── configmaps.yaml
+│   ├── cronjobs-describe.txt
+│   ├── cronjobs.yaml
+│   ├── daemonsets-describe.txt
+│   ├── daemonsets.yaml
+│   ├── deployments-describe.txt
+│   ├── deployments.yaml
+│   ├── endpoints-describe.txt
+│   ├── endpoints.yaml
+│   ├── events-describe.txt
+│   ├── events.yaml
+│   ├── ingresses-describe.txt
+│   ├── ingresses.yaml
+│   ├── jobs-describe.txt
+│   ├── jobs.yaml
+│   ├── networkpolicies-describe.txt
+│   ├── networkpolicies.yaml
+│   ├── percona-operator-pxc-operator-77969b7587-fb9f8
+│   │   └── logs.txt
+│   ├── persistentvolumeclaims-describe.txt
+│   ├── persistentvolumeclaims.yaml
+│   ├── poddisruptionbudgets-describe.txt
+│   ├── poddisruptionbudgets.yaml
+│   ├── pods-describe.txt
+│   ├── pods.yaml
+│   ├── replicasets-describe.txt
+│   ├── replicasets.yaml
+│   ├── replication-controllers.yaml
+│   ├── resourcequotas-describe.txt
+│   ├── resourcequotas.yaml
+│   ├── rolebindings-describe.txt
+│   ├── rolebindings.yaml
+│   ├── roles-describe.txt
+│   ├── roles.yaml
+│   ├── secrets-describe.txt
+│   ├── secrets.yaml
+│   ├── services-describe.txt
+│   ├── services.yaml
+│   ├── statefulsets-describe.txt
+│   └── statefulsets.yaml
+├── persistentvolumes-describe.txt
+├── persistentvolumes.yaml
+├── pf9-system
+│   ├── configmaps-describe.txt
+│   ├── configmaps.yaml
+│   ├── cronjobs-describe.txt
+│   ├── cronjobs.yaml
+│   ├── daemonsets-describe.txt
+│   ├── daemonsets.yaml
+│   ├── deployments-describe.txt
+│   ├── deployments.yaml
+│   ├── endpoints-describe.txt
+│   ├── endpoints.yaml
+│   ├── events-describe.txt
+│   ├── events.yaml
+│   ├── ingresses-describe.txt
+│   ├── ingresses.yaml
+│   ├── jobs-describe.txt
+│   ├── jobs.yaml
+│   ├── mysql-757869878-xxjkz
+│   │   └── logs.txt
+│   ├── networkpolicies-describe.txt
+│   ├── networkpolicies.yaml
+│   ├── persistentvolumeclaims-describe.txt
+│   ├── persistentvolumeclaims.yaml
+│   ├── poddisruptionbudgets-describe.txt
+│   ├── poddisruptionbudgets.yaml
+│   ├── pods-describe.txt
+│   ├── pods.yaml
+│   ├── replicasets-describe.txt
+│   ├── replicasets.yaml
+│   ├── replication-controllers.yaml
+│   ├── resourcequotas-describe.txt
+│   ├── resourcequotas.yaml
+│   ├── rolebindings-describe.txt
+│   ├── rolebindings.yaml
+│   ├── roles-describe.txt
+│   ├── roles.yaml
+│   ├── secrets-describe.txt
+│   ├── secrets.yaml
+│   ├── services-describe.txt
+│   ├── services.yaml
+│   ├── statefulsets-describe.txt
+│   └── statefulsets.yaml
+├── pf9-utils
+│   ├── configmaps-describe.txt
+│   ├── configmaps.yaml
+│   ├── cronjobs-describe.txt
+│   ├── cronjobs.yaml
+│   ├── daemonsets-describe.txt
+│   ├── daemonsets.yaml
+│   ├── deployments-describe.txt
+│   ├── deployments.yaml
+│   ├── endpoints-describe.txt
+│   ├── endpoints.yaml
+│   ├── events-describe.txt
+│   ├── events.yaml
+│   ├── ingresses-describe.txt
+│   ├── ingresses.yaml
+│   ├── jobs-describe.txt
+│   ├── jobs.yaml
+│   ├── mgmt-plane-backup-29249820-wg49z
+│   │   └── logs.txt
+│   ├── mgmt-plane-backup-29249880-fn547
+│   │   └── logs.txt
+│   ├── mgmt-plane-backup-29249940-fn5mx
+│   │   └── logs.txt
+│   ├── mgmt-plane-backup-29250000-vt6wh
+│   │   └── logs.txt
+│   ├── mgmt-plane-backup-29250060-dsp8q
+│   │   └── logs.txt
+│   ├── mgmt-plane-backup-29250120-xd8qd
+│   │   └── logs.txt
+│   ├── mgmt-plane-backup-29250180-6wzrw
+│   │   └── logs.txt
+│   ├── mgmt-plane-backup-29250240-jddl8
+│   │   └── logs.txt
+│   ├── mgmt-plane-backup-29250300-vfxzr
+│   │   └── logs.txt
+│   ├── mgmt-plane-backup-29250360-vjf5m
+│   │   └── logs.txt
+│   ├── mgmt-plane-backup-29250420-vxsr5
+│   │   └── logs.txt
+│   ├── mgmt-plane-backup-29250480-2sccv
+│   │   └── logs.txt
+│   ├── mgmt-plane-backup-29250540-hbjgw
+│   │   └── logs.txt
+│   ├── mgmt-plane-backup-29250600-25p4g
+│   │   └── logs.txt
+│   ├── mgmt-plane-backup-29250660-dddjh
+│   │   └── logs.txt
+│   ├── mgmt-plane-backup-29250720-dvvhq
+│   │   └── logs.txt
+│   ├── mgmt-plane-backup-29250780-l4gjf
+│   │   └── logs.txt
+│   ├── mgmt-plane-backup-29250840-zkvqw
+│   │   └── logs.txt
+│   ├── mgmt-plane-backup-29250900-bw4nb
+│   │   └── logs.txt
+│   ├── mgmt-plane-backup-29250960-gdv55
+│   │   └── logs.txt
+│   ├── mgmt-plane-backup-29251020-54cv6
+│   │   └── logs.txt
+│   ├── mgmt-plane-backup-29251080-cgxvf
+│   │   └── logs.txt
+│   ├── mgmt-plane-backup-29251140-hs4gf
+│   │   └── logs.txt
+│   ├── mgmt-plane-backup-29251200-cqkb6
+│   │   └── logs.txt
+│   ├── mgmt-plane-backup-29251260-gv7cj
+│   │   └── logs.txt
+│   ├── networkpolicies-describe.txt
+│   ├── networkpolicies.yaml
+│   ├── node-taint-check-6kptn
+│   │   └── logs.txt
+│   ├── node-taint-check-p4b27
+│   │   └── logs.txt
+│   ├── node-taint-check-wqzxm
+│   │   └── logs.txt
+│   ├── persistentvolumeclaims-describe.txt
+│   ├── persistentvolumeclaims.yaml
+│   ├── poddisruptionbudgets-describe.txt
+│   ├── poddisruptionbudgets.yaml
+│   ├── pods-describe.txt
+│   ├── pods.yaml
+│   ├── replicasets-describe.txt
+│   ├── replicasets.yaml
+│   ├── replication-controllers.yaml
+│   ├── resourcequotas-describe.txt
+│   ├── resourcequotas.yaml
+│   ├── rolebindings-describe.txt
+│   ├── rolebindings.yaml
+│   ├── roles-describe.txt
+│   ├── roles.yaml
+│   ├── secrets-describe.txt
+│   ├── secrets.yaml
+│   ├── services-describe.txt
+│   ├── services.yaml
+│   ├── statefulsets-describe.txt
+│   └── statefulsets.yaml
+├── priorityclasses-describe.txt
+├── priorityclasses.yaml
+├── projectsveltos
+│   ├── configmaps-describe.txt
+│   ├── configmaps.yaml
+│   ├── cronjobs-describe.txt
+│   ├── cronjobs.yaml
+│   ├── daemonsets-describe.txt
+│   ├── daemonsets.yaml
+│   ├── deployments-describe.txt
+│   ├── deployments.yaml
+│   ├── endpoints-describe.txt
+│   ├── endpoints.yaml
+│   ├── events-describe.txt
+│   ├── events.yaml
+│   ├── ingresses-describe.txt
+│   ├── ingresses.yaml
+│   ├── jobs-describe.txt
+│   ├── jobs.yaml
+│   ├── networkpolicies-describe.txt
+│   ├── networkpolicies.yaml
+│   ├── persistentvolumeclaims-describe.txt
+│   ├── persistentvolumeclaims.yaml
+│   ├── poddisruptionbudgets-describe.txt
+│   ├── poddisruptionbudgets.yaml
+│   ├── pods-describe.txt
+│   ├── pods.yaml
+│   ├── replicasets-describe.txt
+│   ├── replicasets.yaml
+│   ├── replication-controllers.yaml
+│   ├── resourcequotas-describe.txt
+│   ├── resourcequotas.yaml
+│   ├── rolebindings-describe.txt
+│   ├── rolebindings.yaml
+│   ├── roles-describe.txt
+│   ├── roles.yaml
+│   ├── secrets-describe.txt
+│   ├── secrets.yaml
+│   ├── services-describe.txt
+│   ├── services.yaml
+│   ├── statefulsets-describe.txt
+│   └── statefulsets.yaml
+├── runtimeclasses-describe.txt
+├── runtimeclasses.yaml
+├── storageclasses-describe.txt
+├── storageclasses.yaml
+├── support-onprem
+│   ├── alertmanager-7d78cc5bbb-hpvlw
+│   │   └── logs.txt
+│   ├── blackbox-exporter-5456f4f74c-xhn88
+│   │   └── logs.txt
+│   ├── clarity-5cf96f6d94-vzgcl
+│   │   └── logs.txt
+│   ├── clarity-init-wv2wb
+│   │   └── logs.txt
+│   ├── configmaps-describe.txt
+│   ├── configmaps.yaml
+│   ├── cronjobs-describe.txt
+│   ├── cronjobs.yaml
+│   ├── daemonsets-describe.txt
+│   ├── daemonsets.yaml
+│   ├── deployments-describe.txt
+│   ├── deployments.yaml
+│   ├── dex-support-onprem-5d7fd8d5bf-mczmk
+│   │   └── logs.txt
+│   ├── endpoints-describe.txt
+│   ├── endpoints.yaml
+│   ├── events-describe.txt
+│   ├── events.yaml
+│   ├── forwarder-756b5945d9-kn7vb
+│   │   └── logs.txt
+│   ├── hagrid-78f8885887-gdhjm
+│   │   └── logs.txt
+│   ├── hagrid-init-ngrxz
+│   │   └── logs.txt
+│   ├── ingress-nginx-controller-77bb9d9d4b-r2bgh
+│   │   └── logs.txt
+│   ├── ingress-nginx-controller-77bb9d9d4b-vc9td
+│   │   └── logs.txt
+│   ├── ingresses-describe.txt
+│   ├── ingresses.yaml
+│   ├── jobs-describe.txt
+│   ├── jobs.yaml
+│   ├── keystone-api-56b97b899d-2dpl8
+│   │   └── logs.txt
+│   ├── keystone-api-56b97b899d-cmzpb
+│   │   └── logs.txt
+│   ├── keystone-credential-rotate-29233440-qr9fd
+│   │   └── logs.txt
+│   ├── memcached-5c466646f5-9w8rt
+│   │   └── logs.txt
+│   ├── memcached-5c466646f5-znsrc
+│   │   └── logs.txt
+│   ├── mysql-forwarder-7b57dd746c-bcc4m
+│   │   └── logs.txt
+│   ├── mysqld-exporter-55569b84f9-ktjf9
+│   │   └── logs.txt
+│   ├── networkpolicies-describe.txt
+│   ├── networkpolicies.yaml
+│   ├── oidc-proxy-support-onprem-56f664646-w8tsz
+│   │   └── logs.txt
+│   ├── percona-db-pxc-db-haproxy-0
+│   │   └── logs.txt
+│   ├── percona-db-pxc-db-haproxy-1
+│   │   └── logs.txt
+│   ├── percona-db-pxc-db-haproxy-2
+│   │   └── logs.txt
+│   ├── percona-db-pxc-db-pxc-0
+│   │   └── logs.txt
+│   ├── percona-db-pxc-db-pxc-1
+│   │   └── logs.txt
+│   ├── percona-db-pxc-db-pxc-2
+│   │   └── logs.txt
+│   ├── persistentvolumeclaims-describe.txt
+│   ├── persistentvolumeclaims.yaml
+│   ├── pf9-nginx-56444475c5-bjwjr
+│   │   └── logs.txt
+│   ├── pf9-nginx-56444475c5-v2btr
+│   │   └── logs.txt
+│   ├── pf9-nginx-init-9x5r5
+│   │   └── logs.txt
+│   ├── pf9-notifications-5d99f57fc4-b2lt9
+│   │   └── logs.txt
+│   ├── pf9-notifications-init-9wl5f
+│   │   └── logs.txt
+│   ├── pf9-vault-6c655546c-qtk4s
+│   │   └── logs.txt
+│   ├── pf9-vault-init-2qgqx
+│   │   └── logs.txt
+│   ├── poddisruptionbudgets-describe.txt
+│   ├── poddisruptionbudgets.yaml
+│   ├── pods-describe.txt
+│   ├── pods.yaml
+│   ├── preference-store-848999cc86-d62b6
+│   │   └── logs.txt
+│   ├── preference-store-init-kcvcw
+│   │   └── logs.txt
+│   ├── prometheus-698f68b76c-pd5dq
+│   │   └── logs.txt
+│   ├── prometheus-init-xd4r4
+│   │   └── logs.txt
+│   ├── rabbitmq-84b978578-jrb4h
+│   │   └── logs.txt
+│   ├── replicasets-describe.txt
+│   ├── replicasets.yaml
+│   ├── replication-controllers.yaml
+│   ├── resmgr-7b7885647-hskc6
+│   │   └── logs.txt
+│   ├── resourcequotas-describe.txt
+│   ├── resourcequotas.yaml
+│   ├── rolebindings-describe.txt
+│   ├── rolebindings.yaml
+│   ├── roles-describe.txt
+│   ├── roles.yaml
+│   ├── secrets-describe.txt
+│   ├── secrets.yaml
+│   ├── sentinel-6995794b5b-mxszg
+│   │   └── logs.txt
+│   ├── serenity-6d549cdbf9-7zmd6
+│   │   └── logs.txt
+│   ├── serenity-6d549cdbf9-kt9jf
+│   │   └── logs.txt
+│   ├── services-describe.txt
+│   ├── services.yaml
+│   ├── sidekickserver-5d7b588bfd-xxfk6
+│   │   └── logs.txt
+│   ├── statefulsets-describe.txt
+│   ├── statefulsets.yaml
+│   ├── vouch-keystone-747c8cdf44-tcfvv
+│   │   └── logs.txt
+│   ├── vouch-noauth-699dbbfb68-tjn4m
+│   │   └── logs.txt
+│   ├── vouch-renew-token-29233440-6pzxd
+│   │   └── logs.txt
+│   ├── xb-cron-percona-db-pxc-d-fs-pvc-20258100033-372f8-v5kxz
+│   │   └── logs.txt
+│   ├── xb-cron-percona-db-pxc-d-fs-pvc-20258110033-372f8-mcpfl
+│   │   └── logs.txt
+│   ├── xb-cron-percona-db-pxc-d-fs-pvc-20258120033-372f8-jrrrg
+│   │   └── logs.txt
+│   ├── xb-cron-percona-db-pxc-d-fs-pvc-20258130033-372f8-j75wz
+│   │   └── logs.txt
+│   └── xb-cron-percona-db-pxc-d-fs-pvc-2025890033-372f8-dhmnw
+│       └── logs.txt
+├── support-onprem-default-admin
+│   ├── configmaps-describe.txt
+│   ├── configmaps.yaml
+│   ├── cronjobs-describe.txt
+│   ├── cronjobs.yaml
+│   ├── daemonsets-describe.txt
+│   ├── daemonsets.yaml
+│   ├── deployments-describe.txt
+│   ├── deployments.yaml
+│   ├── endpoints-describe.txt
+│   ├── endpoints.yaml
+│   ├── events-describe.txt
+│   ├── events.yaml
+│   ├── ingresses-describe.txt
+│   ├── ingresses.yaml
+│   ├── jobs-describe.txt
+│   ├── jobs.yaml
+│   ├── networkpolicies-describe.txt
+│   ├── networkpolicies.yaml
+│   ├── persistentvolumeclaims-describe.txt
+│   ├── persistentvolumeclaims.yaml
+│   ├── poddisruptionbudgets-describe.txt
+│   ├── poddisruptionbudgets.yaml
+│   ├── pods-describe.txt
+│   ├── pods.yaml
+│   ├── replicasets-describe.txt
+│   ├── replicasets.yaml
+│   ├── replication-controllers.yaml
+│   ├── resourcequotas-describe.txt
+│   ├── resourcequotas.yaml
+│   ├── rolebindings-describe.txt
+│   ├── rolebindings.yaml
+│   ├── roles-describe.txt
+│   ├── roles.yaml
+│   ├── secrets-describe.txt
+│   ├── secrets.yaml
+│   ├── services-describe.txt
+│   ├── services.yaml
+│   ├── statefulsets-describe.txt
+│   └── statefulsets.yaml
+├── support-onprem-default-service
+│   ├── configmaps-describe.txt
+│   ├── configmaps.yaml
+│   ├── cronjobs-describe.txt
+│   ├── cronjobs.yaml
+│   ├── daemonsets-describe.txt
+│   ├── daemonsets.yaml
+│   ├── deployments-describe.txt
+│   ├── deployments.yaml
+│   ├── endpoints-describe.txt
+│   ├── endpoints.yaml
+│   ├── events-describe.txt
+│   ├── events.yaml
+│   ├── ingresses-describe.txt
+│   ├── ingresses.yaml
+│   ├── jobs-describe.txt
+│   ├── jobs.yaml
+│   ├── networkpolicies-describe.txt
+│   ├── networkpolicies.yaml
+│   ├── persistentvolumeclaims-describe.txt
+│   ├── persistentvolumeclaims.yaml
+│   ├── poddisruptionbudgets-describe.txt
+│   ├── poddisruptionbudgets.yaml
+│   ├── pods-describe.txt
+│   ├── pods.yaml
+│   ├── replicasets-describe.txt
+│   ├── replicasets.yaml
+│   ├── replication-controllers.yaml
+│   ├── resourcequotas-describe.txt
+│   ├── resourcequotas.yaml
+│   ├── rolebindings-describe.txt
+│   ├── rolebindings.yaml
+│   ├── roles-describe.txt
+│   ├── roles.yaml
+│   ├── secrets-describe.txt
+│   ├── secrets.yaml
+│   ├── services-describe.txt
+│   ├── services.yaml
+│   ├── statefulsets-describe.txt
+│   └── statefulsets.yaml
+├── support-onprem-default-services
+│   ├── configmaps-describe.txt
+│   ├── configmaps.yaml
+│   ├── cronjobs-describe.txt
+│   ├── cronjobs.yaml
+│   ├── daemonsets-describe.txt
+│   ├── daemonsets.yaml
+│   ├── deployments-describe.txt
+│   ├── deployments.yaml
+│   ├── endpoints-describe.txt
+│   ├── endpoints.yaml
+│   ├── events-describe.txt
+│   ├── events.yaml
+│   ├── ingresses-describe.txt
+│   ├── ingresses.yaml
+│   ├── jobs-describe.txt
+│   ├── jobs.yaml
+│   ├── networkpolicies-describe.txt
+│   ├── networkpolicies.yaml
+│   ├── persistentvolumeclaims-describe.txt
+│   ├── persistentvolumeclaims.yaml
+│   ├── poddisruptionbudgets-describe.txt
+│   ├── poddisruptionbudgets.yaml
+│   ├── pods-describe.txt
+│   ├── pods.yaml
+│   ├── replicasets-describe.txt
+│   ├── replicasets.yaml
+│   ├── replication-controllers.yaml
+│   ├── resourcequotas-describe.txt
+│   ├── resourcequotas.yaml
+│   ├── rolebindings-describe.txt
+│   ├── rolebindings.yaml
+│   ├── roles-describe.txt
+│   ├── roles.yaml
+│   ├── secrets-describe.txt
+│   ├── secrets.yaml
+│   ├── services-describe.txt
+│   ├── services.yaml
+│   ├── statefulsets-describe.txt
+│   └── statefulsets.yaml
+├── support-onprem-kplane
+│   ├── configmaps-describe.txt
+│   ├── configmaps.yaml
+│   ├── cronjobs-describe.txt
+│   ├── cronjobs.yaml
+│   ├── daemonsets-describe.txt
+│   ├── daemonsets.yaml
+│   ├── deployments-describe.txt
+│   ├── deployments.yaml
+│   ├── du-install-support-onprem-2nx2z
+│   │   └── logs.txt
+│   ├── du-install-support-onprem-region1-n4zsj
+│   │   └── logs.txt
+│   ├── endpoints-describe.txt
+│   ├── endpoints.yaml
+│   ├── events-describe.txt
+│   ├── events.yaml
+│   ├── ingress-nginx-controller-6dc9589db6-87vmh
+│   │   └── logs.txt
+│   ├── ingresses-describe.txt
+│   ├── ingresses.yaml
+│   ├── jobs-describe.txt
+│   ├── jobs.yaml
+│   ├── kplane-usermgr-5fbbbf5c5d-hmv79
+│   │   └── logs.txt
+│   ├── networkpolicies-describe.txt
+│   ├── networkpolicies.yaml
+│   ├── persistentvolumeclaims-describe.txt
+│   ├── persistentvolumeclaims.yaml
+│   ├── poddisruptionbudgets-describe.txt
+│   ├── poddisruptionbudgets.yaml
+│   ├── pods-describe.txt
+│   ├── pods.yaml
+│   ├── replicasets-describe.txt
+│   ├── replicasets.yaml
+│   ├── replication-controllers.yaml
+│   ├── resourcequotas-describe.txt
+│   ├── resourcequotas.yaml
+│   ├── rolebindings-describe.txt
+│   ├── rolebindings.yaml
+│   ├── roles-describe.txt
+│   ├── roles.yaml
+│   ├── secrets-describe.txt
+│   ├── secrets.yaml
+│   ├── services-describe.txt
+│   ├── services.yaml
+│   ├── statefulsets-describe.txt
+│   ├── statefulsets.yaml
+│   ├── vault-renew-29247840-khztc
+│   │   └── logs.txt
+│   ├── vault-renew-29249280-6d72f
+│   │   └── logs.txt
+│   └── vault-renew-29250720-6l6kz
+│       └── logs.txt
+├── support-onprem-region1
+│   ├── alertmanager-557cdc4f96-278xm
+│   │   └── logs.txt
+│   ├── appcatalog-5864c555c8-vrddq
+│   │   └── logs.txt
+│   ├── barbican-api-dd6bc74c5-jjg8n
+│   │   └── logs.txt
+│   ├── barbican-api-dd6bc74c5-nk8n6
+│   │   └── logs.txt
+│   ├── blackbox-exporter-7595c4bf4f-966sq
+│   │   └── logs.txt
+│   ├── cinder-api-5f856b9656-86dzg
+│   │   └── logs.txt
+│   ├── cinder-api-5f856b9656-wg787
+│   │   └── logs.txt
+│   ├── cinder-scheduler-d57bd5995-bxxhz
+│   │   └── logs.txt
+│   ├── cinder-scheduler-d57bd5995-gbbv7
+│   │   └── logs.txt
+│   ├── clarity-79bb45c9dd-vhjgj
+│   │   └── logs.txt
+│   ├── clarity-init-mnpjp
+│   │   └── logs.txt
+│   ├── configmaps-describe.txt
+│   ├── configmaps.yaml
+│   ├── cronjobs-describe.txt
+│   ├── cronjobs.yaml
+│   ├── daemonsets-describe.txt
+│   ├── daemonsets.yaml
+│   ├── deployments-describe.txt
+│   ├── deployments.yaml
+│   ├── designate-api-f865757bc-fxnd2
+│   │   └── logs.txt
+│   ├── designate-api-f865757bc-nkn6k
+│   │   └── logs.txt
+│   ├── designate-central-756cd548bc-2mdnh
+│   │   └── logs.txt
+│   ├── designate-central-756cd548bc-ckknj
+│   │   └── logs.txt
+│   ├── designate-producer-6cf8b94b7f-p6h87
+│   │   └── logs.txt
+│   ├── designate-producer-6cf8b94b7f-zfrzc
+│   │   └── logs.txt
+│   ├── endpoints-describe.txt
+│   ├── endpoints.yaml
+│   ├── events-describe.txt
+│   ├── events.yaml
+│   ├── forwarder-56b6575467-lnjpg
+│   │   └── logs.txt
+│   ├── glance-api-6449478b86-b8l46
+│   │   └── logs.txt
+│   ├── glance-api-6449478b86-gkc8f
+│   │   └── logs.txt
+│   ├── grafana-6fcccdc566-9lqv4
+│   │   └── logs.txt
+│   ├── hamgr-5bcf98c4bb-z25wx
+│   │   └── logs.txt
+│   ├── heat-api-694c84959c-588gg
+│   │   └── logs.txt
+│   ├── heat-api-694c84959c-sxzj2
+│   │   └── logs.txt
+│   ├── heat-cfn-6f4f6f978c-6bc9d
+│   │   └── logs.txt
+│   ├── heat-cfn-6f4f6f978c-rrkzc
+│   │   └── logs.txt
+│   ├── heat-engine-6cb8f9b699-rjtgz
+│   │   └── logs.txt
+│   ├── heat-engine-6cb8f9b699-tcrhn
+│   │   └── logs.txt
+│   ├── heat-engine-cleaner-29251285-7kdgt
+│   │   └── logs.txt
+│   ├── heat-engine-cleaner-29251290-r9z9f
+│   │   └── logs.txt
+│   ├── heat-engine-cleaner-29251295-z4gnt
+│   │   └── logs.txt
+│   ├── heat-purge-deleted-29247860-l7vkf
+│   │   └── logs.txt
+│   ├── heat-purge-deleted-29249300-ftc66
+│   │   └── logs.txt
+│   ├── heat-purge-deleted-29250740-h5rkp
+│   │   └── logs.txt
+│   ├── horizon-5647f84f9d-n77zj
+│   │   └── logs.txt
+│   ├── ingress-nginx-controller-77bb9d9d4b-6q56c
+│   │   └── logs.txt
+│   ├── ingress-nginx-controller-77bb9d9d4b-nj5xj
+│   │   └── logs.txt
+│   ├── ingresses-describe.txt
+│   ├── ingresses.yaml
+│   ├── jobs-describe.txt
+│   ├── jobs.yaml
+│   ├── kube-state-metrics-5b45f77d89-dshcc
+│   │   └── logs.txt
+│   ├── masakari-api-5ff8d7b8f8-6qlsl
+│   │   └── logs.txt
+│   ├── masakari-api-5ff8d7b8f8-k46wl
+│   │   └── logs.txt
+│   ├── masakari-engine-6d648c8444-5k9c4
+│   │   └── logs.txt
+│   ├── masakari-engine-6d648c8444-j5vsq
+│   │   └── logs.txt
+│   ├── memcached-5c466646f5-56hzz
+│   │   └── logs.txt
+│   ├── memcached-5c466646f5-n5hch
+│   │   └── logs.txt
+│   ├── mors-59dfcb967b-8hmtw
+│   │   └── logs.txt
+│   ├── mysql-forwarder-7b57dd746c-vwrt6
+│   │   └── logs.txt
+│   ├── mysqld-exporter-5c97d56d65-xkxfg
+│   │   └── logs.txt
+│   ├── networkpolicies-describe.txt
+│   ├── networkpolicies.yaml
+│   ├── neutron-server-bd74fcd9-cht9j
+│   │   └── logs.txt
+│   ├── neutron-server-bd74fcd9-gchqs
+│   │   └── logs.txt
+│   ├── nova-api-metadata-5f5f4c5bdd-8c85p
+│   │   └── logs.txt
+│   ├── nova-api-metadata-5f5f4c5bdd-zjmlp
+│   │   └── logs.txt
+│   ├── nova-api-osapi-698d8844bd-9lqkf
+│   │   └── logs.txt
+│   ├── nova-api-osapi-698d8844bd-whs4d
+│   │   └── logs.txt
+│   ├── nova-archive-deleted-rows-29251140-kdjl9
+│   │   └── logs.txt
+│   ├── nova-archive-deleted-rows-29251200-sz8hq
+│   │   └── logs.txt
+│   ├── nova-archive-deleted-rows-29251260-8wlts
+│   │   └── logs.txt
+│   ├── nova-cell-setup-29251290-5tn95
+│   │   └── logs.txt
+│   ├── nova-cell-setup-29251292-g7hfs
+│   │   └── logs.txt
+│   ├── nova-cell-setup-29251294-sv96j
+│   │   └── logs.txt
+│   ├── nova-cell-setup-29251296-cdfhw
+│   │   └── logs.txt
+│   ├── nova-conductor-b9f55779-55slv
+│   │   └── logs.txt
+│   ├── nova-conductor-b9f55779-qs2r4
+│   │   └── logs.txt
+│   ├── nova-scheduler-6964bfcdf8-4q2k7
+│   │   └── logs.txt
+│   ├── nova-scheduler-6964bfcdf8-cqg65
+│   │   └── logs.txt
+│   ├── octavia-api-75d58fb99f-q2wrw
+│   │   └── logs.txt
+│   ├── octavia-api-75d58fb99f-qvdtt
+│   │   └── logs.txt
+│   ├── openstackexporter-5749775bc4-zfxmd
+│   │   └── logs.txt
+│   ├── ovn-northd-7dbd9b4954-xkghh
+│   │   └── logs.txt
+│   ├── ovn-ovsdb-nb-0
+│   │   └── logs.txt
+│   ├── ovn-ovsdb-sb-0
+│   │   └── logs.txt
+│   ├── percona-db-pxc-db-haproxy-0
+│   │   └── logs.txt
+│   ├── percona-db-pxc-db-haproxy-1
+│   │   └── logs.txt
+│   ├── percona-db-pxc-db-haproxy-2
+│   │   └── logs.txt
+│   ├── percona-db-pxc-db-pxc-0
+│   │   └── logs.txt
+│   ├── percona-db-pxc-db-pxc-1
+│   │   └── logs.txt
+│   ├── percona-db-pxc-db-pxc-2
+│   │   └── logs.txt
+│   ├── persistentvolumeclaims-describe.txt
+│   ├── persistentvolumeclaims.yaml
+│   ├── pf9-ha-slave-ks-user-k7vd6
+│   │   └── logs.txt
+│   ├── pf9-nginx-6d4dcdfb65-qdk6j
+│   │   └── logs.txt
+│   ├── pf9-nginx-6d4dcdfb65-vtswq
+│   │   └── logs.txt
+│   ├── pf9-nginx-init-kh5qw
+│   │   └── logs.txt
+│   ├── pf9-notifications-7c7576b456-vqx72
+│   │   └── logs.txt
+│   ├── pf9-notifications-init-vvdcb
+│   │   └── logs.txt
+│   ├── pf9-vault-694f499989-j594r
+│   │   └── logs.txt
+│   ├── pf9-vault-init-47r2t
+│   │   └── logs.txt
+│   ├── placement-api-57b5fdf8fd-6r8wb
+│   │   └── logs.txt
+│   ├── placement-api-57b5fdf8fd-mxrtm
+│   │   └── logs.txt
+│   ├── poddisruptionbudgets-describe.txt
+│   ├── poddisruptionbudgets.yaml
+│   ├── pods-describe.txt
+│   ├── pods.yaml
+│   ├── preference-store-84ddf66c64-9mpvk
+│   │   └── logs.txt
+│   ├── preference-store-init-4nxw9
+│   │   └── logs.txt
+│   ├── prometheus-6c648d78d9-kfkr5
+│   │   └── logs.txt
+│   ├── prometheus-init-p74fn
+│   │   └── logs.txt
+│   ├── prometheusopenstack-ks-user-w5dkb
+│   │   └── logs.txt
+│   ├── prometheusopenstack-server-74fb474488-dbnhp
+│   │   └── logs.txt
+│   ├── prometheusopenstack-token-refresh-29251260-gcb5z
+│   │   └── logs.txt
+│   ├── rabbitmq-686d5ddc5b-8xklp
+│   │   └── logs.txt
+│   ├── replicasets-describe.txt
+│   ├── replicasets.yaml
+│   ├── replication-controllers.yaml
+│   ├── resmgr-68cdb76477-x9fkk
+│   │   └── logs.txt
+│   ├── resourcequotas-describe.txt
+│   ├── resourcequotas.yaml
+│   ├── rolebindings-describe.txt
+│   ├── rolebindings.yaml
+│   ├── roles-describe.txt
+│   ├── roles.yaml
+│   ├── secrets-describe.txt
+│   ├── secrets.yaml
+│   ├── sentinel-746cb969bb-4ftpt
+│   │   └── logs.txt
+│   ├── serenity-7db59fbcf7-9nhvm
+│   │   └── logs.txt
+│   ├── serenity-7db59fbcf7-bjk45
+│   │   └── logs.txt
+│   ├── services-describe.txt
+│   ├── services.yaml
+│   ├── sidekickserver-588fd44c64-qjwz8
+│   │   └── logs.txt
+│   ├── statefulsets-describe.txt
+│   ├── statefulsets.yaml
+│   ├── vouch-keystone-58d7586f6b-t55nl
+│   │   └── logs.txt
+│   ├── vouch-keystone-init-zqwsp
+│   │   └── logs.txt
+│   ├── vouch-noauth-cf789dcf4-s7skh
+│   │   └── logs.txt
+│   ├── vouch-renew-token-29233440-6ddbx
+│   │   └── logs.txt
+│   ├── watcher-api-d6dcb7648-86vtr
+│   │   └── logs.txt
+│   ├── watcher-api-d6dcb7648-v9kqd
+│   │   └── logs.txt
+│   ├── watcher-applier-5f6b6b56d4-d8dvg
+│   │   └── logs.txt
+│   ├── watcher-applier-5f6b6b56d4-rjszs
+│   │   └── logs.txt
+│   ├── watcher-decision-engine-7b5cc7b57-bvb7f
+│   │   └── logs.txt
+│   ├── watcher-decision-engine-7b5cc7b57-pvk7g
+│   │   └── logs.txt
+│   ├── watcher-predictions-6b748f8c98-mmzz5
+│   │   └── logs.txt
+│   ├── xb-cron-percona-db-pxc-d-fs-pvc-20258100033-372f8-6rp8z
+│   │   └── logs.txt
+│   ├── xb-cron-percona-db-pxc-d-fs-pvc-20258110033-372f8-mpmkj
+│   │   └── logs.txt
+│   ├── xb-cron-percona-db-pxc-d-fs-pvc-20258120033-372f8-nzssr
+│   │   └── logs.txt
+│   ├── xb-cron-percona-db-pxc-d-fs-pvc-20258130033-372f8-2nqrt
+│   │   └── logs.txt
+│   └── xb-cron-percona-db-pxc-d-fs-pvc-2025890033-372f8-xqh2r
+│       └── logs.txt
+├── validatingwebhookconfigurations-describe.txt
+├── validatingwebhookconfigurations.yaml
+├── volumeattachments-describe.txt
+└── volumeattachments.yaml
+
+406 directories, 2574 files
+```
