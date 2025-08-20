@@ -33,7 +33,7 @@ kubectl get nodes
 
 ### 🚀 Option 1: Direct 'pcddump' Installation and Execution (Recommended)
 
-Execute the script directly with a single command:
+Run this script to initiate the PCD cluster dump generation:
 
 ```bash
 bash <(curl -Ls https://raw.githubusercontent.com/vishnu-prasadtv/pf9-gatherer/refs/heads/main/pcddump.sh)
