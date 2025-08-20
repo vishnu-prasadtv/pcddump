@@ -31,7 +31,7 @@ kubectl get nodes
 
 ## 🛠️ Installation
 
-### 🚀 Option 1: Direct Installation (Recommended)
+### 🚀 Option 1: Direct 'pcddump' Installation and Execution (Recommended)
 
 Execute the script directly with a single command:
 
