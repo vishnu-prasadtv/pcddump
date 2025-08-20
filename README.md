@@ -36,7 +36,7 @@ kubectl get nodes
 Execute the script directly with a single command:
 
 ```bash
-bash <(curl -Ls https://raw.githubusercontent.com/vishnu-prasadtv/pf9-gatherer/refs/heads/main/pf9-gatherer.sh)
+bash <(curl -Ls https://raw.githubusercontent.com/vishnu-prasadtv/pf9-gatherer/refs/heads/main/pcddump.sh)
 ```
 
 ### 📥 Option 2: Manual Execution
@@ -45,13 +45,13 @@ For users who prefer to download and inspect before execution:
 
 ```bash
 # 📥 Download the script
-curl -L https://raw.githubusercontent.com/vishnu-prasadtv/pf9-gatherer/refs/heads/main/pf9-gatherer.sh -o pf9-gatherer.sh
+curl -L https://raw.githubusercontent.com/vishnu-prasadtv/pf9-gatherer/refs/heads/main/pcddump.sh -o pcddump.sh
 
 # 🔓 Make it executable
-chmod +x pf9-gatherer.sh
+chmod +x pcddump.sh
 
 # ▶️ Execute the script
-./pf9-gatherer.sh
+./pcddump.sh
 ```
 
 ## 🚀 Usage
@@ -59,7 +59,7 @@ chmod +x pf9-gatherer.sh
 ### Basic Execution
 
 ```bash
-./pf9-gatherer.sh
+./pcddump.sh
 ```
 
 ## 🔧 Requirements
