@@ -2,7 +2,7 @@
 
 ![Kubernetes](https://img.shields.io/badge/kubernetes-%23326ce5.svg?style=for-the-badge&logo=kubernetes&logoColor=white) ![Shell Script](https://img.shields.io/badge/shell_script-%23121011.svg?style=for-the-badge&logo=gnu-bash&logoColor=white)
 
-> 📊 **Platform9 Cluster Dump Gatherer** - A powerful utility script for collecting comprehensive Kubernetes cluster information from Platform9 managed clusters.
+> 📊 **PCDDump** - A powerful utility script for collecting comprehensive PCD Management cluster information for offline troubleshooting.
 
 ## 📋 Description
 
