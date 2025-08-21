@@ -78,3 +78,50 @@ The script generates comprehensive cluster dump containing:
 - 📈 Cluster state and health information  
 - 🔍 Diagnostic data and logs
 - ⚙️ Platform9 specific configurations and settings
+```
+# bash  pcddump.sh
+🚀 PCD Cluster Dump Generation is in Progress...
+📁 Working with directory: /tmp/pcddump-2025-08-20_14-42-43/pcddump
+⏱️ Estimated time: 5-12 minutes
+=============================================
+📊 [14:42:43] Step 1: Discovering namespaces...
+...
+...
+...
+=============================================
+🎉 Your PCD Cluster Dump is ready!
+=============================================
+📁 PCD Dump directory: /tmp/pcddump-2025-08-20_14-42-43/pcddump
+📁 Archived directory: /tmp/pcddump-2025-08-20_14-42-43.tar.gz
+📊 Total size: 257M
+📋 Summary: 29 namespaces processed
+
+📂 Directory Structure:
+  Root cluster resources: 16 describe files
+  Root cluster resources: 15 YAML files
+  Namespace folders: 29
+  Total describe files: 567
+  Total YAML files: 567
+
+📝 Structure created:
+  • /tmp/pcddump-2025-08-20_14-42-43/pcddump/namespaces-describe.txt
+  • /tmp/pcddump-2025-08-20_14-42-43/pcddump/namespaces.yaml
+  • /tmp/pcddump-2025-08-20_14-42-43/pcddump/get-namespaces.txt
+  • /tmp/pcddump-2025-08-20_14-42-43/pcddump/get-owide-namespaces.txt
+  • /tmp/pcddump-2025-08-20_14-42-43/pcddump/get-show-labels-namespaces.txt
+  • /tmp/pcddump-2025-08-20_14-42-43/pcddump/get-all-events.txt
+  • /tmp/pcddump-2025-08-20_14-42-43/pcddump/<cluster-resource>.yaml
+  • /tmp/pcddump-2025-08-20_14-42-43/pcddump/<cluster-resource>-describe.txt
+  • /tmp/pcddump-2025-08-20_14-42-43/pcddump/get-<cluster-resource>.txt
+  • /tmp/pcddump-2025-08-20_14-42-43/pcddump/get-owide-<cluster-resource>.txt
+  • /tmp/pcddump-2025-08-20_14-42-43/pcddump/get-show-labels-<cluster-resource>.txt
+  • /tmp/pcddump-2025-08-20_14-42-43/pcddump/<namespace>/<resource>.yaml
+  • /tmp/pcddump-2025-08-20_14-42-43/pcddump/<namespace>/<resource>-describe.txt
+  • /tmp/pcddump-2025-08-20_14-42-43/pcddump/<namespace>/get-<resource>.txt
+  • /tmp/pcddump-2025-08-20_14-42-43/pcddump/<namespace>/get-owide-<resource>.txt
+  • /tmp/pcddump-2025-08-20_14-42-43/pcddump/<namespace>/get-show-labels-<resource>.txt
+  • /tmp/pcddump-2025-08-20_14-42-43/pcddump/<namespace>/<pod-name>/logs.txt
+  • /tmp/pcddump-2025-08-20_14-42-43/pcddump/metrics/
+=============================================
+
+```
